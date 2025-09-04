@@ -2,7 +2,9 @@
 
 
 
+
 ## Scope ................................ ................................ ................................ ..............................  8
+
 
 
 
@@ -10,7 +12,9 @@
 
 
 
+
 ## Abbreviations ................................ ................................ ................................ ................... 9
+
 
 
 
@@ -18,7 +22,9 @@
 
 
 
+
 # Process capability determination ................................ ................................ ............................ 11
+
 
 
 
@@ -26,7 +32,9 @@
 
 
 
+
 ### Primary life cycle processes category ................................ ................................ .... 13
+
 
 
 
@@ -34,7 +42,9 @@
 
 
 
+
 ### Organizational life cycle processes category ................................ ......................... 14
+
 
 
 
@@ -42,7 +52,9 @@
 
 
 
+
 ### Process capability levels and process attributes ................................ .................... 15
+
 
 
 
@@ -50,7 +62,9 @@
 
 
 
+
 ### Process capability level model ................................ ................................ ............... 20
+
 
 
 
@@ -58,7 +72,9 @@
 
 
 
+
 ### Process performance indicators ................................ ................................ ............. 21
+
 
 
 
@@ -66,7 +82,9 @@
 
 
 
+
 ### Understanding the level of abstraction of a PAM ................................ .................... 22
+
 
 
 
@@ -74,7 +92,9 @@
 
 
 
+
 ## Acquisition process group (ACQ) ................................ ................................ ................... 25
+
 
 
 
@@ -82,7 +102,9 @@
 
 
 
+
 ### ACQ.4 Supplier Monitoring ................................ ................................ .................... 26
+
 
 
 
@@ -90,7 +112,9 @@
 
 
 
+
 ### ACQ.12 Legal and Administrative Requirements ................................ ................... 28
+
 
 
 
@@ -98,7 +122,9 @@
 
 
 
+
 ### ACQ.14 Request for Proposals ................................ ................................ .............. 32
+
 
 
 
@@ -106,7 +132,9 @@
 
 
 
+
 ## Supply process group (SPL) ................................ ................................ .......................... 35
+
 
 
 
@@ -114,7 +142,9 @@
 
 
 
+
 ### SPL.2 Product Release ................................ ................................ .......................... 36
+
 
 
 
@@ -122,7 +152,9 @@
 
 
 
+
 ### SYS.1 Requirements Elicitation ................................ ................................ ............. 38
+
 
 
 
@@ -130,11 +162,14 @@
 
 
 
+
 ### SYS.3 System Architectural Design ................................ ................................ ....... 41
 
 © VDA Quality Management Center 6
 
+
 ### SYS.4 System Integration and Integration Test ................................ ...................... 43
+
 
 
 
@@ -142,7 +177,9 @@
 
 
 
+
 ## Software engineering process group (SWE) ................................ ................................ .. 47
+
 
 
 
@@ -150,7 +187,9 @@
 
 
 
+
 ### SWE.2 Software Architectural Design ................................ ................................ .... 49
+
 
 
 
@@ -158,7 +197,9 @@
 
 
 
+
 ### SWE.4 Software Unit Verification ................................ ................................ ........... 52
+
 
 
 
@@ -166,7 +207,9 @@
 
 
 
+
 ### SWE.6 Software Qualification Test ................................ ................................ ........ 56
+
 
 
 
@@ -174,7 +217,9 @@
 
 
 
+
 ### SUP.1 Quality Assurance................................ ................................ ....................... 58
+
 
 
 
@@ -182,7 +227,9 @@
 
 
 
+
 ### SUP.4 Joint Review ................................ ................................ ...............................  60
+
 
 
 
@@ -190,7 +237,9 @@
 
 
 
+
 ### SUP.8 Configuration Management ................................ ................................ ......... 63
+
 
 
 
@@ -198,7 +247,9 @@
 
 
 
+
 ### SUP.10 Change Request Management ................................ ................................ . 67
+
 
 
 
@@ -206,7 +257,9 @@
 
 
 
+
 ### MAN.3 Project Management ................................ ................................ .................. 69
+
 
 
 
@@ -214,7 +267,9 @@
 
 
 
+
 ### MAN.6 Measurement ................................ ................................ ............................. 72
+
 
 
 
@@ -222,7 +277,9 @@
 
 
 
+
 ### PIM.3 Process Improvement ................................ ................................ .................. 74
+
 
 
 
@@ -230,7 +287,9 @@
 
 
 
+
 ### REU.2 Reuse Program Management ................................ ................................ ..... 76
+
 
 
 
@@ -238,7 +297,9 @@
 
 
 
+
 ## Process capability Level 0: Incomplete process ................................ ............................. 78
+
 
 
 
@@ -246,7 +307,9 @@
 
 
 
+
 ### PA 1.1 Process performance process attribute ................................ ...................... 78
+
 
 
 
@@ -254,7 +317,9 @@
 
 
 
+
 ### PA 2.1 Performance management process attribute ................................ .............. 79
+
 
 
 
@@ -262,7 +327,9 @@
 
 
 
+
 ## Process capability Level 3: Established process ................................ ............................ 82
+
 
 
 
@@ -270,7 +337,9 @@
 
 
 
+
 ### PA 3.2 Process deployment process attribute ................................ ........................ 84
+
 
 
 
@@ -278,7 +347,9 @@
 
 
 
+
 ### PA 4.1 Quantitative analysis process attribute ................................ ....................... 86
+
 
 
 
@@ -286,11 +357,14 @@
 
 
 
+
 ## Process capability Level 5: Innovating process ................................ ..............................  88
 
 
 
+
 ### PA 5.1 Process innovation process attribute ................................ .......................... 88
+
 
 
 
@@ -365,7 +439,9 @@ Table E.1 — Reference standards ................................ .............
  
 © VDA Quality Management Center 8
 
+
 # Introduction
+
 
 
 
@@ -395,12 +471,14 @@ assessment.
  
 © VDA Quality Management Center 9
 
+
 ## Terminology
 
 Automotive SPICE follows the following precedence for use of terminology: 
 a) ISO/IEC 33001 for assessment related terminology  
 b) ISO/IEC/IEEE 24765 and ISO/IEC/IEEE 29119 terminology (as contained in Annex C)  
 c) Terms introduced by Automotive SPICE (as contained in Annex C)
+
 
 ## Abbreviations
 
@@ -436,6 +514,7 @@ WP Work Product
 WPC Work Product Characteristic 
 Table 1 — Abbreviation List
 
+
 # Statement of compliance
 
 The Automotive SPICE process assessment model and process reference model is conformant with 
@@ -459,6 +538,7 @@ requirements of ISO/IEC 33004 is provided in Annex A.
  
  
 © VDA Quality Management Center 11
+
 
 # Process capability determination
 
@@ -500,6 +580,7 @@ Figure 1 — Process assessment model relationship
  
  
 © VDA Quality Management Center 12
+
 
 ## Process reference model
 
@@ -613,6 +694,7 @@ Figure 2 — Automotive SPICE process reference model - Overview
  
 © VDA Quality Management Center 13
 
+
 ### Primary life cycle processes category
 
 The primary life cycle processes category consists of processes that may be used by the customer 
@@ -669,6 +751,7 @@ SWE.5 Software Integration and Integration Test
 SWE.6 Software Qualification Test 
 Table 5 — Primary life cycle processes – SWE process group
 
+
 ### Supporting life cycle processes category
 
 The supporting life cycle processes category consists of processes that may be employed by any of 
@@ -681,6 +764,7 @@ SUP.8 Configuration Management
 SUP.9 Problem Resolution Management 
 SUP.10 Change Request Management 
 Table 6 — Supporting life cycle processes - SUP process group
+
 
 ### Organizational life cycle processes category
 
@@ -714,6 +798,7 @@ organization’s reuse programs.
 REU.2 Reuse Program Management 
 Table 9 — Organizational life cycle processes - REU process group
 
+
 ## Measurement framework
 
 The m easurement f ramework provides the necessary requirements and rules for the capability 
@@ -727,6 +812,7 @@ process are represented by a process capability level model.
 Automotive SPICE 3.1 uses the measurement framework defined in ISO/IEC 33020:2015. 
 NOTE: Text incorporated from ISO/IEC 33020 within this chapter is written in italic font and marked with a 
 left side bar.
+
 
 ### Process capability levels and process attributes
 
@@ -795,6 +881,7 @@ Level 5: Innovating process
 PA 5.1 Process innovation process attribute 
 PA 5.2 Process innovation implementation process attribute 
 Table 11 — Process attributes according to ISO/IEC 33020
+
 
 ### Process attribute rating
 
@@ -952,6 +1039,7 @@ ISO/IEC 33020.
  
 © VDA Quality Management Center 20
 
+
 ### Process capability level model
 
 The process capability level achieved by a process shall be derived from the process attribute ratings 
@@ -1024,6 +1112,7 @@ Table 16 — Process capability level model according to ISO/IEC 33020
  
 © VDA Quality Management Center 21
 
+
 ## Process assessment model
 
 The process assessment model offers indicators in order to identify whether the process outcomes 
@@ -1053,6 +1142,7 @@ The evidence obtained should be recorded in a form that clearly relates to an as
 in order that support for the assessor’s judgment can be confirmed or verified as required by ISO/IEC 
 33002.
 
+
 ### Process performance indicators
 
 Types of process performance indicators are 
@@ -1077,6 +1167,7 @@ appropriate for the intended purpose and needs, and in relation to the developme
  
  
 © VDA Quality Management Center 22
+
 
 ### Process capability indicators
 
@@ -1137,6 +1228,7 @@ process 2
 GP BPs, WPs and WPCs
  
 Figure 3 — Relationship between assessment indicators and process capability
+
 
 ### Understanding the level of abstraction of a PAM
 
@@ -1203,6 +1295,7 @@ Figure 5 — Performing a process assessment for determining process capability
  
 © VDA Quality Management Center 24
 
+
 # Process reference model and performance indicators (Level 1)
 
 The processes in the process dimension can be drawn from the Automotive SPICE process 
@@ -1244,7 +1337,9 @@ Table 17 — Template for the process description
  
 © VDA Quality Management Center 25
 
+
 ## Acquisition process group (ACQ)
+
 
 
 
@@ -1306,6 +1401,7 @@ products
 13-04 Communication record → [OUTCOME 4] 
 13-05 Contract review record → [OUTCOME 1] 
 13-09 Meeting support record → [OUTCOME 1]
+
 
 ### ACQ.4 Supplier Monitoring
 
@@ -1370,6 +1466,7 @@ products
 13-19 Review record   → [OUTCOME 2] 
 14-02 Corrective action register → [OUTCOME 4] 
 15-01 Analysis report   → [OUTCOME 3]
+
 
 ### ACQ.11 Technical Requirements
 
@@ -1460,6 +1557,7 @@ products
 17-00 Requirement specification → [OUTCOME 6] 
 17-03 Customer requirements → [OUTCOME 6]
 
+
 ### ACQ.12 Legal and Administrative Requirements
 
 Process ID ACQ.12 
@@ -1539,6 +1637,7 @@ products
 14-02 Corrective action register → [OUTCOME 3] 
 17-00 Requirement specification → [OUTCOME 1-7] 
 18-01 Acceptance criteria  → [OUTCOME 3]
+
 
 ### ACQ.13 Project Requirements
 
@@ -1660,6 +1759,7 @@ products
 13-20 Risk action request  → [OUTCOME 6] 
 17-00 Requirement specification → [OUTCOME 1-9]
 
+
 ### ACQ.14 Request for Proposals
 
 Process ID ACQ.14 
@@ -1742,6 +1842,7 @@ products
  
 © VDA Quality Management Center 34
 
+
 ### ACQ.15 Supplier Qualification
 
 Process ID ACQ.15 
@@ -1797,7 +1898,9 @@ products
  
 © VDA Quality Management Center 35
 
+
 ## Supply process group (SPL)
+
 
 
 
@@ -1860,6 +1963,7 @@ products
 13-04 Communication record → [OUTCOME 1, 6] 
 13-15 Proposal review record → [OUTCOME 3, 4] 
 13-19 Review record   → [OUTCOME 2]
+
 
 ### SPL.2 Product Release
 
@@ -1967,7 +2071,9 @@ products
 15-03 Configuration status report  → [OUTCOME 2] 
 18-06 Product release criteria  → [OUTCOME 5, 7]
 
+
 ## System engineering process group (SYS)
+
 
 
 
@@ -2059,6 +2165,7 @@ products
 13-21 Change control record  → [OUTCOME 3, 4] 
 15-01 Analysis report   → [OUTCOME 2, 3, 6] 
 17-03 Stakeholder Requirements → [OUTCOME 1, 2]
+
 
 ### SYS.2 System Requirements Analysis
 
@@ -2158,6 +2265,7 @@ products
 17-12 System requirements specification → [OUTCOME 1, 5] 
 17-50 Verification criteria   → [OUTCOME 2]
 
+
 ### SYS.3 System Architectural Design
 
 Process ID SYS.3 
@@ -2239,6 +2347,7 @@ products
  
  
 © VDA Quality Management Center 43
+
 
 ### SYS.4 System Integration and Integration Test
 
@@ -2363,6 +2472,7 @@ products
 13-22 Traceability record  → [OUTCOME 7] 
 13-50 Test result   → [OUTCOME 6, 8]
 
+
 ### SYS.5 System Qualification Test
 
 Process ID SYS.5 
@@ -2452,7 +2562,9 @@ products
  
 © VDA Quality Management Center 47
 
+
 ## Software engineering process group (SWE)
+
 
 
 
@@ -2571,6 +2683,7 @@ products
 17-11 Software requirements specification → [OUTCOME 1] 
 17-50 Verification criteria   → [OUTCOME 2]
 
+
 ### SWE.2 Software Architectural Design
 
 Process ID SWE.2 
@@ -2658,6 +2771,7 @@ products
 13-22 Traceability record   → [OUTCOME 5] 
 17-08 Interface requirement specification  →  [OUTCOME 3]
 
+
 ### SWE.3 Software Detailed Design and Unit Construction
 
 Process ID SWE.3 
@@ -2740,6 +2854,7 @@ products
 13-04 Communication record → [OUTCOME 5] 
 13-19 Review record   → [OUTCOME 4] 
 13-22 Traceability record  → [OUTCOME 4]
+
 
 ### SWE.4 Software Unit Verification
 
@@ -2836,6 +2951,7 @@ products
  
  
 © VDA Quality Management Center 54
+
 
 ### SWE.5 Software Integration and Integration Test
 
@@ -2961,6 +3077,7 @@ products
 13-50 Test result   → [OUTCOME 6, 8] 
 17-02 Build list   → [OUTCOME 4, 7]
 
+
 ### SWE.6 Software Qualification Test
 
 Process ID SWE.6 
@@ -3047,7 +3164,9 @@ products
  
 © VDA Quality Management Center 58
 
+
 ## Supporting process group (SUP)
+
 
 
 
@@ -3139,6 +3258,7 @@ products
 14-02 Corrective action register → [OUTCOME 3, 5, 6] 
 18-07 Quality criteria   → [OUTCOME 1]
 
+
 ### SUP.2 Verification
 
 Process ID SUP.2 
@@ -3195,6 +3315,7 @@ products
 14-02 Corrective action register → [OUTCOME 4] 
 18-07 Quality criteria   → [OUTCOME 2] 
 19-10 Verification strategy  → [OUTCOME 1]
+
 
 ### SUP.4 Joint Review
 
@@ -3284,6 +3405,7 @@ products
 15-13 Assessment/audit report →  [OUTCOME 1, 2] 
 15-16 Improvement opportunity →  [OUTCOME 3, 4]
 
+
 ### SUP.7 Documentation
 
 Process ID SUP.7 
@@ -3362,6 +3484,7 @@ products
 13-19 Review record  →  [OUTCOME 4, 5] 
 14-01 Change history  →  [OUTCOME 5, 6] 
 14-11 Work product list →  [OUTCOME 3]
+
 
 ### SUP.8 Configuration Management
 
@@ -3470,6 +3593,7 @@ products
 14-01 Change history    → [OUTCOME 3] 
 16-03 Configuration management system → [OUTCOME 1, 3, 4]
 
+
 ### SUP.9 Problem Resolution Management
 
 Process ID SUP.9 
@@ -3562,6 +3686,7 @@ products
 15-01 Analysis report   → [OUTCOME 3] 
 15-05 Evaluation report  → [OUTCOME 3] 
 15-12 Problem status report  → [OUTCOME 6]
+
 
 ### SUP.10 Change Request Management
 
@@ -3657,7 +3782,9 @@ products
  
 © VDA Quality Management Center 69
 
+
 ## Management process group (MAN)
+
 
 
 
@@ -3767,6 +3894,7 @@ products
  
 © VDA Quality Management Center 71
 
+
 ### MAN.5 Risk Management
 
 Process ID MAN.5 
@@ -3845,6 +3973,7 @@ products
 14-08 Tracking system  → [OUTCOME 5, 6] 
 15-08 Risk analysis report   → [OUTCOME 4] 
 15-09 Risk status report  → [OUTCOME 4, 5]
+
 
 ### MAN.6 Measurement
 
@@ -3938,7 +4067,9 @@ products
 15-05 Evaluation report   → [OUTCOME 5, 7] 
 15-18 Process performance report  → [OUTCOME 5, 7]
 
+
 ## Process improvement process group (PIM)
+
 
 
 
@@ -4061,7 +4192,9 @@ products
 15-16 Improvement opportunity → [OUTCOME 2, 3, 4, 7] 
 16-06 Process repository  → [OUTCOME 4]
 
+
 ## Reuse process group (REU)
+
 
 
 
@@ -4142,6 +4275,7 @@ products
  
 © VDA Quality Management Center 78
 
+
 # Process capability levels and process attributes
 
 Process capability indicators are the means of achieving the capabilities addressed by the 
@@ -4158,15 +4292,18 @@ process or a process which fails to partially achieve any of its outcomes.
 NOTE: ISO/IEC 33020 process attribute definitions and attribute outcomes are duplicated from ISO/IEC 
 33020 in italic font and marked with a left side bar.
 
+
 ## Process capability Level 0: Incomplete process
 
 The process is not implemented, or fails to achieve its process purpose. At this level there is little 
 or no evidence of any systematic achievement of the process purpose.
 
+
 ## Process capability Level 1: Performed process
 
 The implemented process achieves its process purpose. The follo wing process attribute 
 demonstrates the achievement of this level
+
 
 ### PA 1.1 Process performance process attribute
 
@@ -4182,6 +4319,7 @@ resources
 Resources are used to achieve the intent of process specific 
 base practices [ACHIEVEMENT a]
 
+
 ## Process capability Level 2: Managed process
 
 The previously described Performed process is now implemented in a managed fashion (planned, 
@@ -4195,6 +4333,7 @@ demonstrate the achievement of this level:
  
  
 © VDA Quality Management Center 79
+
 
 ### PA 2.1 Performance management process attribute
 
@@ -4298,6 +4437,7 @@ Email and/or other communication mechanisms
 Information and/or experience repository [ACHIEVEMENT b, d, e] 
 Problem and issues management mechanisms [ACHIEVEMENT c]
 
+
 ### PA 2.2 Work product management process attribute
 
 The work product management process attribute is a measure of the extent to which the work 
@@ -4366,12 +4506,14 @@ Intranets, extranets and/or other communication mechanisms
 [ACHIEVEMENT b, c] 
 Problem and issue management mechanisms [ACHIEVEMENT d]
 
+
 ## Process capability Level 3: Established process
 
 The previously described Managed process is now implemented using a defined process that is 
 capable of achieving its process outcomes. 
 The following process attributes, together with the previously defined process attributes, 
 demonstrate the achievement of this level:
+
 
 ### PA 3.1 Process definition process attribute
 
@@ -4446,6 +4588,7 @@ Resource management system [ACHIEVEMENT d]
 Process infrastructure [ACHIEVEMENT a, b, d] 
 Audit and trend analysis tools [ACHIEVEMENT e] 
 Process monitoring method [ACHIEVEMENT e]
+
 
 ### PA 3.2 Process deployment process attribute
 
@@ -4522,6 +4665,7 @@ Data collection analysis system [ACHIEVEMENT f]
 Process assessment framework [ACHIEVEMENT f] 
 Audit/review system [ACHIEVEMENT f]
 
+
 ## Process capability Level 4: Predictable process
 
 The previously described Established process now operates predictively within defined limits to 
@@ -4536,6 +4680,7 @@ demonstrate the achievement of this level:
  
  
 © VDA Quality Management Center 86
+
 
 ### PA 4.1 Quantitative analysis process attribute
 
@@ -4610,6 +4755,7 @@ Product and Process measurement tools and results databases
 Process measurement framework  [ACHIEVEMENT a, d, e, f, g] 
 Tools for data analysis and measurement [ACHIEVEMENT a, b, c, d, e, f]
 
+
 ### PA 4.2 Quantitative control process attribute
 
 The quantitative control process attribute is a measure of the extent to which objectiv e data are 
@@ -4657,12 +4803,14 @@ Generic resources Process control and analysis techniques [ACHIEVEMENT a, c]
 Statistical analysis tools/applications [ACHIEVEMENT a, b, c, e] 
 Process control tools/applications [ACHIEVEMENT d, e]
 
+
 ## Process capability Level 5: Innovating process
 
 The previously described Predictable process is now continually improved to respond to change 
 aligned with organizational goals. 
 The following process attributes, together with the previously defined process attributes, 
 demonstrate the achievement of this level:
+
 
 ### PA 5.1 Process innovation process attribute
 
@@ -4714,6 +4862,7 @@ Generic resources Process improvement framework [ACHIEVEMENT a, c, d]
 Process feedback and analysis system  (measurement data, causal 
 analysis results etc.) [ACHIEVEMENT b, c] 
 Piloting and trialing mechanism [ACHIEVEMENT c, d]
+
 
 ### PA 5.2 Process innovation implementation process attribute
 
@@ -6530,12 +6679,14 @@ execution:
 Annex C Terminology 
 Annex C lists the applicable terminology references from ISO/IEC/IEEE 24765 and ISO/IEC/IEEE
 
+
 # It also provides terms which are specifically defined within Automotive SPICE. Some of these
 
 definitions are based on ISO/IEC/IEEE 24765.  
 Table C.1 — Terminology 
 Term Origin Description 
 Acceptance testing ISO/IEC/IEEE
+
 
 # Formal testing conducted to enable a user, customer, or authorized
 
@@ -6565,6 +6716,7 @@ the software components (the lowest level elements of the
 software architecture). 
 Baseline ISO/IEC/IEEE
 
+
 # A speci fication or product that has been formally reviewed and
 
 agreed upon, that thereafter serves as the basis for further 
@@ -6582,6 +6734,7 @@ its suitability for its intended use an d identify discrepancies from
 specifications and standards.  
 Coding ISO/IEC/IEEE
 
+
 # The transforming of logic and data from design specifications (design
 
 descriptions) into programming language. 
@@ -6593,6 +6746,7 @@ supported by bidirectional traceability.
 Defect  → [FAULT] 
 Dynamic analysis ISO/IEC/IEEE
 
+
 # A process of evaluating a system or component based on its behavior
 
 during execution. 
@@ -6603,6 +6757,7 @@ on the left side of the "V". Such elements can be further decomposed
 into more fine -grained sub -elements of the architecture or design 
 across appropriate hierarchical levels. 
 Error ISO/IEC/IEEE
+
 
 # The difference between a computed, observed, or measured value or
 
@@ -6618,11 +6773,13 @@ condition.
  
 Fault ISO/IEC/IEEE
 
+
 # A manifestation of an error in software.
 
 Functional 
 requirement 
 ISO/IEC/IEEE
+
 
 # A statement that identifies what a product or process must
 
@@ -6631,15 +6788,18 @@ Functional
 specification 
 ISO/IEC/IEEE
 
+
 # A document that specifies the functions that a system or component
 
 must perform. Often part of a requirements specification. 
 Functional testing ISO/IEC/IEEE
 
+
 # Testing conducted to evaluate the compliance of a system or
 
 component with specified functional requirements. 
 Hardware ISO/IEC/IEEE
+
 
 # Physical equipment used to process, store, or transmit computer
 
@@ -6669,6 +6829,7 @@ A set of items that are integrated into a larger assembly for the
 purpose of integration testing. 
 Quality assurance ISO/IEC/IEEE
 
+
 # A planned and systematic pattern of all actions necessary to provide
 
 adequate confidence that an item or product conforms to established 
@@ -6693,6 +6854,7 @@ requirements, interface requirements, design requirements, and
 development standards. 
 Software ISO/IEC/IEEE
 
+
 # Computer programs, procedures, and possibly associated
 
 documentation and data pertaining to the operation of a computer 
@@ -6708,6 +6870,7 @@ one or more software "units".
 → [ARCHITECTURE ELEMENT], [UNIT] 
 Software element  → [ARCHITECTURE ELEMENT] 
 Software item ISO/IEC/IEEE
+
 
 # Identifiable part of a software product.
 
@@ -6733,6 +6896,7 @@ SPICE V3.1
 Identifiable part of the system. 
 System test ISO/IEC/IEEE
 
+
 # Testing conducted on a complete, integrated system to evaluate the
 
 system's compliance with its specified requirements. 
@@ -6742,6 +6906,7 @@ Activity in which an item (system, hardware, or software) is executed
 under specific conditions; and  the results are recorded , summarized 
 and communicated. 
 Traceability ISO/IEC/IEEE
+
 
 # The degree to which a relationship can be established between two
 
@@ -6758,10 +6923,12 @@ The testing of individual software units or a set of combined software
 units. 
 Validation ISO/IEC/IEEE
 
+
 # Validation demonstrates that the work item can be used by the users
 
 for their specific tasks. 
 Verification ISO/IEC/IEEE
+
 
 # Verification is confirmation, through the provision of objective
 
@@ -6928,6 +7095,7 @@ detailed design is defined. A software "component" consists of one or more softw
  
 D.4 Traceability and consistency 
 Traceability and consistency are addressed by two separate base practices in the Automotive SPICE
+
 
 ## PAM. Traceability refers to the existence of references or links between work products thereby
 
@@ -7209,3 +7377,4 @@ ISO/IEC/IEEE 24765:2010 Systems and software engineering -- Vocabulary
 ISO/IEC 25010:2011 Systems and software engineering -- Systems and software 
 Quality Requirements and Evaluation (SQuaRE) -- System and 
 software quality models
+

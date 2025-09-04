@@ -2,7 +2,9 @@
 
 
 
+
 ## Backwards Compatibility to Previous ECU Manager Module Versions . 14
+
 
 
 
@@ -10,7 +12,9 @@
 
 
 
+
 ## Definitions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+
 
 
 
@@ -18,7 +22,9 @@
 
 
 
+
 # Related documentation 17
+
 
 
 
@@ -26,7 +32,9 @@
 
 
 
+
 ## Related specification . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+
 
 
 
@@ -34,7 +42,9 @@
 
 
 
+
 ## Limitations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+
 
 
 
@@ -42,7 +52,9 @@
 
 
 
+
 ## Applicability to car domains . . . . . . . . . . . . . . . . . . . . . . . . 18
+
 
 
 
@@ -50,7 +62,9 @@
 
 
 
+
 ## SPAL Modules . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+
 
 
 
@@ -58,7 +72,9 @@
 
 
 
+
 ### Driver Dependencies and Initialization Order . . . . . . . . . 19
+
 
 
 
@@ -66,7 +82,9 @@
 
 
 
+
 ## Operating System . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+
 
 
 
@@ -74,7 +92,9 @@
 
 
 
+
 ## BSW Mode Manager . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+
 
 
 
@@ -82,7 +102,9 @@
 
 
 
+
 ## File Structure . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+
 
 
 
@@ -90,7 +112,9 @@
 
 
 
+
 ### Header file structure . . . . . . . . . . . . . . . . . . . . . . . 22
+
 
 
 
@@ -98,7 +122,9 @@
 
 
 
+
 # Functional Specification 28
+
 
 
 
@@ -106,7 +132,9 @@
 
 
 
+
 ### STARTUP Phase . . . . . . . . . . . . . . . . . . . . . . . . . 31
+
 
 
 
@@ -114,7 +142,9 @@
 
 
 
+
 ### SHUTDOWN Phase . . . . . . . . . . . . . . . . . . . . . . . 32
+
 
 
 
@@ -122,7 +152,9 @@
 
 
 
+
 ### OFF Phase . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+
 
 
 
@@ -130,7 +162,9 @@
 
 
 
+
 ### Standardized AUTOSAR Software Modules . . . . . . . . . . 34
+
 
 
 
@@ -138,7 +172,9 @@
 
 
 
+
 ## STARTUP Phase . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34
+
 
 
 
@@ -146,7 +182,9 @@
 
 
 
+
 ### Activities in StartPreOS Sequence . . . . . . . . . . . . . . . 35
+
 
 
 
@@ -157,7 +195,9 @@
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 
+
 ### Checking Configuration Consistency . . . . . . . . . . . . . . 39
+
 
 
 
@@ -165,7 +205,9 @@ AUTOSAR CP R20-11
 
 tency in the ECU Manager . . . . . . . . . . . . . . . 39
 
+
 #### Example Hash Computation Algorithm . . . . . . . . 41
+
 
 
 
@@ -173,7 +215,9 @@ tency in the ECU Manager . . . . . . . . . . . . . . . 39
 
 
 
+
 ### BSW Initialization . . . . . . . . . . . . . . . . . . . . . . . . 43
+
 
 
 
@@ -181,7 +225,9 @@ tency in the ECU Manager . . . . . . . . . . . . . . . 39
 
 
 
+
 ### Activities in the OffPreOS Sequence . . . . . . . . . . . . . . 44
+
 
 
 
@@ -189,7 +235,9 @@ tency in the ECU Manager . . . . . . . . . . . . . . . 39
 
 
 
+
 ## SLEEP Phase . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 47
+
 
 
 
@@ -197,7 +245,9 @@ tency in the ECU Manager . . . . . . . . . . . . . . . 39
 
 
 
+
 ### Activities in the Halt Sequence . . . . . . . . . . . . . . . . . 49
+
 
 
 
@@ -205,7 +255,9 @@ tency in the ECU Manager . . . . . . . . . . . . . . . 39
 
 
 
+
 ### Leaving Halt or Poll . . . . . . . . . . . . . . . . . . . . . . . 54
+
 
 
 
@@ -213,7 +265,9 @@ tency in the ECU Manager . . . . . . . . . . . . . . . 39
 
 
 
+
 ## UP Phase . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56
+
 
 
 
@@ -221,7 +275,9 @@ tency in the ECU Manager . . . . . . . . . . . . . . . 39
 
 
 
+
 ### Wakeup Source State Handling . . . . . . . . . . . . . . . . 56
+
 
 
 
@@ -229,7 +285,9 @@ tency in the ECU Manager . . . . . . . . . . . . . . . 39
 
 
 
+
 ### Activities in the WakeupValidation Sequence . . . . . . . . . 59
+
 
 
 
@@ -237,7 +295,9 @@ tency in the ECU Manager . . . . . . . . . . . . . . . 39
 
 
 
+
 #### Interaction of Wakeup Sources and the ECU Manager 62
+
 
 
 
@@ -245,7 +305,9 @@ tency in the ECU Manager . . . . . . . . . . . . . . . 39
 
 
 
+
 #### Requirements for Drivers with Wakeup Sources . . . 63
+
 
 
 
@@ -253,7 +315,9 @@ tency in the ECU Manager . . . . . . . . . . . . . . . 39
 
 
 
+
 ### Wakeup Sources and Reset Reason . . . . . . . . . . . . . . 63
+
 
 
 
@@ -261,7 +325,9 @@ tency in the ECU Manager . . . . . . . . . . . . . . . 39
 
 
 
+
 ## Shutdown Targets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 64
+
 
 
 
@@ -269,7 +335,9 @@ tency in the ECU Manager . . . . . . . . . . . . . . . 39
 
 
 
+
 ### Reset . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 66
+
 
 
 
@@ -277,7 +345,9 @@ tency in the ECU Manager . . . . . . . . . . . . . . . 39
 
 
 
+
 ### Alarm Clocks and Users . . . . . . . . . . . . . . . . . . . . . 67
+
 
 
 
@@ -285,7 +355,9 @@ tency in the ECU Manager . . . . . . . . . . . . . . . 39
 
 
 
+
 #### EcuM Clock Time in the UP Phase . . . . . . . . . . 68
+
 
 
 
@@ -293,7 +365,9 @@ tency in the ECU Manager . . . . . . . . . . . . . . . 39
 
 
 
+
 ## MultiCore . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 69
+
 
 
 
@@ -301,7 +375,9 @@ tency in the ECU Manager . . . . . . . . . . . . . . . 39
 
 
 
+
 ### Slave Core . . . . . . . . . . . . . . . . . . . . . . . . . . . . 70
+
 
 
 
@@ -309,7 +385,9 @@ tency in the ECU Manager . . . . . . . . . . . . . . . 39
 
 
 
+
 #### BSW Level . . . . . . . . . . . . . . . . . . . . . . . 70
+
 
 
 
@@ -317,7 +395,9 @@ tency in the ECU Manager . . . . . . . . . . . . . . . 39
 
 
 
+
 ### UP Phase . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 73
+
 
 
 
@@ -325,11 +405,14 @@ tency in the ECU Manager . . . . . . . . . . . . . . . 39
 
 
 
+
 #### Master Core STARTUP . . . . . . . . . . . . . . . . 74
 
 
 
+
 #### Slave Core STARTUP . . . . . . . . . . . . . . . . . 76
+
 
 
 
@@ -340,7 +423,9 @@ tency in the ECU Manager . . . . . . . . . . . . . . . 39
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 
+
 #### Master Core SHUTDOWN . . . . . . . . . . . . . . . 80
+
 
 
 
@@ -348,7 +433,9 @@ AUTOSAR CP R20-11
 
 
 
+
 ### SLEEP Phase . . . . . . . . . . . . . . . . . . . . . . . . . . 83
+
 
 
 
@@ -356,7 +443,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### Slave Core SLEEP . . . . . . . . . . . . . . . . . . . 87
+
 
 
 
@@ -364,7 +453,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### Internal behavior . . . . . . . . . . . . . . . . . . . . 91
+
 
 
 
@@ -372,7 +463,9 @@ AUTOSAR CP R20-11
 
 
 
+
 ## Advanced Topics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 95
+
 
 
 
@@ -380,7 +473,9 @@ AUTOSAR CP R20-11
 
 
 
+
 ### Relation to Complex Drivers . . . . . . . . . . . . . . . . . . 96
+
 
 
 
@@ -388,7 +483,9 @@ AUTOSAR CP R20-11
 
 
 
+
 ## ErrorHook . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 96
+
 
 
 
@@ -396,7 +493,9 @@ AUTOSAR CP R20-11
 
 
 
+
 ### Development Errors . . . . . . . . . . . . . . . . . . . . . . . 97
+
 
 
 
@@ -404,7 +503,9 @@ AUTOSAR CP R20-11
 
 
 
+
 ### Transient Faults . . . . . . . . . . . . . . . . . . . . . . . . . 98
+
 
 
 
@@ -412,7 +513,9 @@ AUTOSAR CP R20-11
 
 
 
+
 ### Extended Production Errors . . . . . . . . . . . . . . . . . . . 98
+
 
 
 
@@ -420,7 +523,9 @@ AUTOSAR CP R20-11
 
 
 
+
 ## Imported Types . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 99
+
 
 
 
@@ -428,7 +533,9 @@ AUTOSAR CP R20-11
 
 
 
+
 ### EcuM_ConfigType . . . . . . . . . . . . . . . . . . . . . . . . 100
+
 
 
 
@@ -436,7 +543,9 @@ AUTOSAR CP R20-11
 
 
 
+
 ### EcuM_WakeupSourceType . . . . . . . . . . . . . . . . . . . 101
+
 
 
 
@@ -444,7 +553,9 @@ AUTOSAR CP R20-11
 
 
 
+
 ### EcuM_ResetType . . . . . . . . . . . . . . . . . . . . . . . . 103
+
 
 
 
@@ -452,7 +563,9 @@ AUTOSAR CP R20-11
 
 
 
+
 ## Function Definitions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 103
+
 
 
 
@@ -460,7 +573,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### EcuM_GetVersionInfo . . . . . . . . . . . . . . . . . 104
+
 
 
 
@@ -468,7 +583,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### EcuM_GoDownHaltPoll . . . . . . . . . . . . . . . . 104
+
 
 
 
@@ -476,7 +593,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### EcuM_StartupTwo . . . . . . . . . . . . . . . . . . . 105
+
 
 
 
@@ -484,7 +603,9 @@ AUTOSAR CP R20-11
 
 
 
+
 ### State Management . . . . . . . . . . . . . . . . . . . . . . . 107
+
 
 
 
@@ -492,7 +613,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### EcuM_RequestRUN . . . . . . . . . . . . . . . . . . 107
+
 
 
 
@@ -500,7 +623,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### EcuM_RequestPOST_RUN . . . . . . . . . . . . . . 109
+
 
 
 
@@ -508,11 +633,14 @@ AUTOSAR CP R20-11
 
 
 
+
 ### Shutdown Management . . . . . . . . . . . . . . . . . . . . . 110
 
 
 
+
 #### EcuM_SelectShutdownTarget . . . . . . . . . . . . . 110
+
 
 
 
@@ -523,7 +651,9 @@ AUTOSAR CP R20-11
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 
+
 #### EcuM_GetLastShutdownTarget . . . . . . . . . . . . 112
+
 
 
 
@@ -531,7 +661,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### EcuM_GetShutdownCause . . . . . . . . . . . . . . 113
+
 
 
 
@@ -539,7 +671,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### EcuM_GetPendingWakeupEvents . . . . . . . . . . 114
+
 
 
 
@@ -547,7 +681,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### EcuM_GetValidatedWakeupEvents . . . . . . . . . . 116
+
 
 
 
@@ -555,7 +691,9 @@ AUTOSAR CP R20-11
 
 
 
+
 ### Alarm Clock . . . . . . . . . . . . . . . . . . . . . . . . . . . 117
+
 
 
 
@@ -563,7 +701,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### EcuM_SetAbsWakeupAlarm . . . . . . . . . . . . . . 118
+
 
 
 
@@ -571,7 +711,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### EcuM_GetCurrentTime . . . . . . . . . . . . . . . . 119
+
 
 
 
@@ -579,7 +721,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### EcuM_SetClock . . . . . . . . . . . . . . . . . . . . . 120
+
 
 
 
@@ -587,7 +731,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### EcuM_SelectBootTarget . . . . . . . . . . . . . . . . 121
+
 
 
 
@@ -595,7 +741,9 @@ AUTOSAR CP R20-11
 
 
 
+
 ## Callback Definitions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 122
+
 
 
 
@@ -603,7 +751,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### EcuM_CheckWakeup . . . . . . . . . . . . . . . . . 122
+
 
 
 
@@ -611,7 +761,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### EcuM_ValidateWakeupEvent . . . . . . . . . . . . . 123
+
 
 
 
@@ -619,7 +771,9 @@ AUTOSAR CP R20-11
 
 
 
+
 ### Generic Callouts . . . . . . . . . . . . . . . . . . . . . . . . . 124
+
 
 
 
@@ -627,7 +781,9 @@ AUTOSAR CP R20-11
 
 
 
+
 ### Callouts from the STARTUP Phase . . . . . . . . . . . . . . 125
+
 
 
 
@@ -635,7 +791,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### EcuM_AL_DriverInitZero . . . . . . . . . . . . . . . . 126
+
 
 
 
@@ -643,7 +801,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### EcuM_AL_DriverInitOne . . . . . . . . . . . . . . . . 127
+
 
 
 
@@ -651,7 +811,9 @@ AUTOSAR CP R20-11
 
 
 
+
 ### Callouts from the SHUTDOWN Phase . . . . . . . . . . . . . 128
+
 
 
 
@@ -659,7 +821,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### EcuM_OnGoOffTwo . . . . . . . . . . . . . . . . . . 129
+
 
 
 
@@ -667,7 +831,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### EcuM_AL_Reset . . . . . . . . . . . . . . . . . . . . 130
+
 
 
 
@@ -675,7 +841,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### EcuM_EnableWakeupSources . . . . . . . . . . . . 131
+
 
 
 
@@ -683,7 +851,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### EcuM_SleepActivity . . . . . . . . . . . . . . . . . . 132
+
 
 
 
@@ -691,7 +861,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### EcuM_CheckWakeup . . . . . . . . . . . . . . . . . 133
+
 
 
 
@@ -699,7 +871,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### EcuM_CheckRamHash . . . . . . . . . . . . . . . . 135
+
 
 
 
@@ -710,7 +884,9 @@ AUTOSAR CP R20-11
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 
+
 #### EcuM_AL_DriverRestart . . . . . . . . . . . . . . . . 136
+
 
 
 
@@ -718,7 +894,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### EcuM_StartWakeupSources . . . . . . . . . . . . . . 137
+
 
 
 
@@ -726,7 +904,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### EcuM_StopWakeupSources . . . . . . . . . . . . . . 138
+
 
 
 
@@ -734,7 +914,9 @@ AUTOSAR CP R20-11
 
 
 
+
 ### EcuM_MainFunction . . . . . . . . . . . . . . . . . . . . . . . 139
+
 
 
 
@@ -742,7 +924,9 @@ AUTOSAR CP R20-11
 
 
 
+
 ### Optional Interfaces . . . . . . . . . . . . . . . . . . . . . . . . 140
+
 
 
 
@@ -750,7 +934,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### Callbacks from the STARTUP phase . . . . . . . . . 141
+
 
 
 
@@ -758,7 +944,9 @@ AUTOSAR CP R20-11
 
 
 
+
 ### Ports and Port Interface for EcuM_ShutdownTarget Interface 142
+
 
 
 
@@ -766,7 +954,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### Service Interfaces . . . . . . . . . . . . . . . . . . . 142
+
 
 
 
@@ -774,7 +964,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### General Approach . . . . . . . . . . . . . . . . . . . 145
+
 
 
 
@@ -782,7 +974,9 @@ AUTOSAR CP R20-11
 
 
 
+
 ### Port Interface for EcuM_AlarmClock Interface . . . . . . . . 146
+
 
 
 
@@ -790,7 +984,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### Service Interfaces . . . . . . . . . . . . . . . . . . . 146
+
 
 
 
@@ -798,7 +994,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### General Approach . . . . . . . . . . . . . . . . . . . 147
+
 
 
 
@@ -806,7 +1004,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### Service Interfaces . . . . . . . . . . . . . . . . . . . 147
+
 
 
 
@@ -814,7 +1014,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### General Approach . . . . . . . . . . . . . . . . . . . 149
+
 
 
 
@@ -822,7 +1024,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### Service Interfaces . . . . . . . . . . . . . . . . . . . 149
+
 
 
 
@@ -830,7 +1034,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### General Approach . . . . . . . . . . . . . . . . . . . 150
+
 
 
 
@@ -838,7 +1044,9 @@ AUTOSAR CP R20-11
 
 
 
+
 #### Service Interfaces . . . . . . . . . . . . . . . . . . . 151
+
 
 
 
@@ -846,7 +1054,9 @@ AUTOSAR CP R20-11
 
 
 
+
 ## API Parameter Checking . . . . . . . . . . . . . . . . . . . . . . . . . . 156
+
 
 
 
@@ -854,7 +1064,9 @@ AUTOSAR CP R20-11
 
 
 
+
 ## State Sequences . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 157
+
 
 
 
@@ -862,7 +1074,9 @@ AUTOSAR CP R20-11
 
 
 
+
 ### GPT Wakeup Sequences . . . . . . . . . . . . . . . . . . . . 157
+
 
 
 
@@ -870,7 +1084,9 @@ AUTOSAR CP R20-11
 
 
 
+
 ### CAN Wakeup Sequences . . . . . . . . . . . . . . . . . . . . 162
+
 
 
 
@@ -878,11 +1094,14 @@ AUTOSAR CP R20-11
 
 
 
+
 ### FlexRay Wakeup Sequences . . . . . . . . . . . . . . . . . . 173
 
 
 
+
 # Configuration specification 176
+
 
 
 
@@ -893,7 +1112,9 @@ AUTOSAR CP R20-11
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 
+
 ### EcuM . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 177
+
 
 
 
@@ -901,7 +1122,9 @@ AUTOSAR CP R20-11
 
 
 
+
 ### EcuMConfiguration . . . . . . . . . . . . . . . . . . . . . . . 180
+
 
 
 
@@ -909,7 +1132,9 @@ AUTOSAR CP R20-11
 
 
 
+
 ### EcuMDefaultShutdownTarget . . . . . . . . . . . . . . . . . . 183
+
 
 
 
@@ -917,7 +1142,9 @@ AUTOSAR CP R20-11
 
 
 
+
 ### EcuMDriverInitListZero . . . . . . . . . . . . . . . . . . . . . 186
+
 
 
 
@@ -925,7 +1152,9 @@ AUTOSAR CP R20-11
 
 
 
+
 ### EcuMDriverInitItem . . . . . . . . . . . . . . . . . . . . . . . 187
+
 
 
 
@@ -933,7 +1162,9 @@ AUTOSAR CP R20-11
 
 
 
+
 ### EcuMWakeupSource . . . . . . . . . . . . . . . . . . . . . . 192
+
 
 
 
@@ -941,7 +1172,9 @@ AUTOSAR CP R20-11
 
 
 
+
 ### EcuMFlexGeneral . . . . . . . . . . . . . . . . . . . . . . . . 196
+
 
 
 
@@ -949,7 +1182,9 @@ AUTOSAR CP R20-11
 
 
 
+
 ### EcuMAlarmClock . . . . . . . . . . . . . . . . . . . . . . . . 202
+
 
 
 
@@ -957,7 +1192,9 @@ AUTOSAR CP R20-11
 
 
 
+
 ### EcuMGoDownAllowedUsers . . . . . . . . . . . . . . . . . . 206
+
 
 
 
@@ -965,7 +1202,9 @@ AUTOSAR CP R20-11
 
 
 
+
 ### EcuMSetClockAllowedUsers . . . . . . . . . . . . . . . . . . 207
+
 
 
 
@@ -983,6 +1222,7 @@ Core context.
 
 Specification of ECU State Manager
 AUTOSAR CP R20-11
+
 
 # Introduction and Functional Overview
 
@@ -1029,6 +1269,7 @@ During the UP Phase of the ECU Manager module the BSW Mode Manager is re-
 sponsible for further actions. Whereas, the ECU Manager module arbitrates RUN and
 POST_RUN Requests from SW-Cs and notifies BswM about the status of the modes.
 
+
 ## Backwards Compatibility to Previous ECU Manager Module
 
 Versions
@@ -1041,10 +1282,12 @@ to Mode Management" [4].
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 
+
 # Definitions and Abbreviations
 
 This chapter defines terms that are of special significance to the ECU Manager and
 the acronyms of related modules.
+
 
 ## Definitions
 
@@ -1094,6 +1337,7 @@ Wakeup Source
 The peripheral or ECU component which deals with wakeup
 events is called a wakeup source.
 
+
 ## Abbreviations
 
 15 of 210 Document ID 78: AUTOSAR_SWS_ECUStateManager
@@ -1118,7 +1362,9 @@ VFB Virtual Function Bus
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 
+
 # Related documentation
+
 
 
 
@@ -1147,6 +1393,7 @@ AUTOSAR_SWS_MCUDriver
 [11] Specification of CAN Transceiver Driver
 AUTOSAR_SWS_CANTransceiverDriver
 
+
 ## Related specification
 
 AUTOSAR provides a General Specification on Basic Software modules (see [6]),
@@ -1157,7 +1404,9 @@ sidered as additional and required specification for ECU State Manager.
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 
+
 # Constraints and Assumptions
+
 
 
 
@@ -1168,12 +1417,14 @@ Rationale: The shutdown target OFF can only be reached using ECU special hardwar
 (e.g. a power hold circuit). If this hardware is not available, this specification proposes
 to issue a reset instead. Other default behaviors are permissible, however.
 
+
 ## Hardware Requirements
 
 In this section, the term "EcuM RAM" refers to a block of RAM reserved for use by the
 ECU Manager module.
 The EcuM RAM shall keep contents of vital data while the ECU clock is switched off.
 Rationale: This requirement is needed to implement sleep states as required in section
+
 
 ## SLEEP Phase.
 
@@ -1183,6 +1434,7 @@ on event (clamp 30).
 The system designer is responsible for establishing an initialization strategy for the no
 init area of the ECU RAM.
 
+
 ## Applicability to car domains
 
 The ECU Manager module is applicable to all car domains.
@@ -1190,6 +1442,7 @@ The ECU Manager module is applicable to all car domains.
 
 Specification of ECU State Manager
 AUTOSAR CP R20-11
+
 
 # Dependencies to other modules
 
@@ -1199,7 +1452,9 @@ the ECU Manager module.
 If data pointers are passed to a BSW module, the address needs to point to a location
 in the shared part of the memory space.
 
+
 ## SPAL Modules
+
 
 
 
@@ -1211,7 +1466,9 @@ the MCU Driver module are not necessarily fully initialized, however. Additional
 module specific steps may be needed to complete the initialization. The ECU Manager
 module provides two callout where this additional code can be placed. Refer to section
 
+
 ### Activities in StartPreOS Sequence for details.
+
 
 
 
@@ -1225,6 +1482,7 @@ initialized.
 The system designer is responsible for defining the initialization order at configuration
 time in EcuMDriverInitListZero, EcuMDriverInitListOne, EcuMDriver-
 RestartList and inEcuMDriverInitListBswM.
+
 
 ## Peripherals with Wakeup Capability
 
@@ -1252,17 +1510,20 @@ must either provide a validation callout for the wakeup event or call the ECU Ma
 module’s validation function. If validation is not necessary, then this requirement is not
 applicable for the corresponding wakeup source.
 
+
 ## Operating System
 
 The ECU Manager module starts the AUTOSAR OS and also shuts it down. The ECU
 Manager module defines the protocol how control is handled before the OS is started
 and how control is handled after the OS has been shut down.
 
+
 ## BSW Scheduler
 
 The ECU Manager module initializes the BSW Scheduler and the ECU Manager mod-
 ule also contains EcuM_MainFunction (see [SWS_EcuM_02837]) which is scheduled
 to periodically evaluate wakeup requests and update the Alarm Clock.
+
 
 ## BSW Mode Manager
 
@@ -1292,6 +1553,7 @@ is stopped on shutdown.
 When wakeup sources are being validated, the ECU Manager module indicates
 wakeup source state changes to the BswM through mode switch requests.
 
+
 ## Software Components
 
 The ECU Manager module handles the following ECU-wide properties:
@@ -1306,7 +1568,9 @@ shutdown target.
 •The generation tool may only allow configurations that have one SW-C accessing
 the shutdown target.
 
+
 ## File Structure
+
 
 
 
@@ -1325,6 +1589,7 @@ AUTOSAR CP R20-11
 Whether EcuM_Callout_Stubs.c can be edited manually or is composed only of
 other generated files depends on the implementation.
 
+
 ### Header file structure
 
 Also refer to chapter 8.7 Expected Interfaces for dependencies to other modules.
@@ -1332,6 +1597,7 @@ Also refer to chapter 8.7 Expected Interfaces for dependencies to other modules.
 
 Specification of ECU State Manager
 AUTOSAR CP R20-11
+
 
 # Requirements Tracing
 
@@ -1714,6 +1980,7 @@ Table 6.1: RequirementsTracing
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 
+
 # Functional Specification
 
 Chapter 1 introduced the new, more flexible approach to ECU state management.
@@ -1738,6 +2005,7 @@ the notable difference that these APIs are Callbacks.
 It was always intended that wakeup source handling take place not only during wakeup
 but continuously, in parallel to all other EcuM activities. This functionality is now fully
 decoupled from the rest of ECU management via mode requests.
+
 
 ## Phases of the ECU Manager Module
 
@@ -1851,11 +2119,13 @@ Figure 7.1: Phases of the ECU Manager
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 
+
 ### STARTUP Phase
 
 The purpose of the STARTUP phase is to initialize the basic software modules to the
 point where Generic Mode Management facilities are operational. For more details
 about the initialization see chapter 7.3.
+
 
 ### UP Phase
 
@@ -1891,11 +2161,13 @@ driven ECU management and for configuring the BSW Mode Manager accordingly.
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 
+
 ### SHUTDOWN Phase
 
 [SWS_EcuM_03022] ⌈The SHUTDOWN phase handles the controlled shutdown of
 basic software modules and finally results in the selected shutdown target OFF or
 RESET.⌋(SRS_ModeMgm_09072)
+
 
 ### SLEEP Phase
 
@@ -1909,6 +2181,7 @@ ager module provides a protocol to validate wakeup events. The protocol specifie
 a cooperative process between the driver which handles the wakeup source and the
 ECU Manager (see section 7.6.4 ).
 
+
 ### OFF Phase
 
 The ECU enters the OFF state when it is powered down. The ECU may be wakeable
@@ -1921,6 +2194,7 @@ mented with a small loop inside the SLEEP state.
 
 Specification of ECU State Manager
 AUTOSAR CP R20-11
+
 
 ## Structural Description of the ECU Manager
 
@@ -2052,6 +2326,7 @@ AUTOSAR CP R20-11
 initialization2. There are however some modules that have a functional relationship
 with the ECU Manager module, which is explained in the following paragraphs.
 
+
 ### Standardized AUTOSAR Software Modules
 
 Some Basic Software driver modules are initialized, shut down and re-initialized upon
@@ -2062,10 +2337,12 @@ Manager module before passing control to the BswM. The BswM hands execution
 control back to the ECU Manager module immediately before OS shutdown. Details
 are provided in the chapters 7.3 STARTUP and 7.4 SHUTDOWN .
 
+
 ### Software Components
 
 SW-Components contain the AUTOSAR ECU’s application code.
 A SW-C interacts with the ECU Manager module using AUTOSAR ports.
+
 
 ## STARTUP Phase
 
@@ -2104,12 +2381,14 @@ to StartOS, the ECU Manager module temporarily relinquishes control. To regain
 control, the Integrator has to implement an OS task that is automatically started and
 calls EcuM_StartupTwo as its first action.
 
+
 ### Activities before EcuM_Init
 
 The ECU Manager module assumes that before EcuM_Init (see
 [SWS_EcuM_02811] ) is called a minimal initialization of the MCU has taken
 place, so that a stack is set up and code can be executed, also that C initialization of
 variables has been performed.
+
 
 ### Activities in StartPreOS Sequence
 
@@ -2243,6 +2522,7 @@ See section 7.7 Shutdown Targets.
 [SWS_EcuM_02603] ⌈The StartPreOS Sequence shall initialize all basic software
 modules that are needed to start the OS.⌋()
 
+
 ### Activities in the StartPostOS Sequence
 
 StartPostOS Sequence
@@ -2277,7 +2557,9 @@ SchM_Init(const SchM_ConfigType*)
 BswM_Init(const BswM_ConfigType *)
 Figure 7.5: StartPostOS Sequence
 
+
 ### Checking Configuration Consistency
+
 
 
 
@@ -2342,6 +2624,7 @@ over all pre-compile and link-time configuration parameters of all BSW modules s
 always produce the same hash value for the same set of configuration data regardless
 of the order of configuration parameters in the XML files.⌋()
 
+
 #### Example Hash Computation Algorithm
 
 Note: This chapter is not normative. It describes one possible way to compute hash
@@ -2365,6 +2648,7 @@ AUTOSAR CP R20-11
 Finally, a cryptographically strong hash function, e.g. MD5, can be run on the text file
 to produce the hash value. These hash functions produce completely different hash
 values for slightly changed input files.
+
 
 ### Driver Initialization
 
@@ -2429,6 +2713,7 @@ PWM Driver
 OCU Driver
 Table 7.3: Driver Initialization Details, Sample Configuration
 
+
 ### BSW Initialization
 
 The remaining BSW modules are initialized by the BSW Mode Manager, using a config-
@@ -2437,6 +2722,7 @@ created from the configured list of init functions (EcuMDriverInitListBswM ).
 [SWS_EcuM_04142] ⌈The configuration of the ECU Manager module shall specify the
 order of initialization calls inside the BSW initialization (seeEcuMDriverInitListB-
 swM ).⌋()
+
 
 ## SHUTDOWN Phase
 
@@ -2470,6 +2756,7 @@ EcuM_GoDownHaltPoll
 (Std_ReturnType, EcuM_UserType)
 ShutdownOS()
 Figure 7.7: SHUTDOWN Phase
+
 
 ### Activities in the OffPreOS Sequence
 
@@ -2523,6 +2810,7 @@ BswM_Deinit()
 SchM_Deinit()
 Figure 7.8: OffPreOS Sequence
 
+
 ### Activities in the OffPostOS Sequence
 
 The OffPostOS sequence implements the final steps to reach the shutdown target after
@@ -2567,6 +2855,7 @@ See section 8.5.3.4EcuM_AL_Reset ([SWS_EcuM_04065] ) for details.
 shall call theEcuM_AL_SwitchOff callout.⌋()
 See section 8.5.3.3EcuM_AL_SwitchOff ([SWS_EcuM_02920] ) for details.
 
+
 ## SLEEP Phase
 
 Refer to Section 7.1.4 SLEEP Phase for an overview of the SLEEP phase.EcuM_-
@@ -2607,6 +2896,7 @@ before callingEcuM_GoDownHaltPoll.
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 
+
 ### Activities in the GoSleep Sequence
 
 In the GoSleep sequence the ECU Manager module configures hardware for the up-
@@ -2632,6 +2922,7 @@ Figure 7.11: GoSleep Sequence
 [SWS_EcuM_03010] ⌈When operating on a multicore ECU ECUM shall reserve a ded-
 icated resource (RES_AUTOSAR_ECUM) for each core, which is allocated during Go
 Sleep.⌋()
+
 
 ### Activities in the Halt Sequence
 
@@ -2740,6 +3031,7 @@ AUTOSAR CP R20-11
 eRamHash (see [SWS_EcuM_02919] ) where the system designer can place a RAM
 integrity check.⌋()
 
+
 ### Activities in the Poll Sequence
 
 [SWS_EcuM_02962] ⌈The ECU Manager module shall execute the Poll Sequence in
@@ -2808,6 +3100,7 @@ Figure 7.13: Poll Sequence
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 
+
 ### Leaving Halt or Poll
 
 [SWS_EcuM_02963] ⌈If a wakeup event (e.g. toggling a wakeup line, communication
@@ -2820,6 +3113,7 @@ See section 7.5.5 Activities in the WakeupRestart Sequence.
 [SWS_EcuM_04001] ⌈If irregular events (a hardware reset or a power cycle) occur
 while the ECU is in Halt or Poll, the ECU Manager module shall restart the ECU in the
 STARTUP phase.⌋()
+
 
 ### Activities in the WakeupRestart Sequence
 
@@ -2882,6 +3176,7 @@ Figure 7.14: WakeupRestart Sequence
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 
+
 ## UP Phase
 
 In the UP Phase, theEcuM_MainFunction is executed regularly and it has three
@@ -2891,11 +3186,13 @@ necessary (see 7.6.4 Activities in the WakeupValidation Sequence)
 •To update the Alarm Clock timer
 •Arbitrate RUN and POST_RUN requests and releases.
 
+
 ### Alarm Clock Handling
 
 See section 7.8.2 EcuM Clock Time in the UP Phase for implementation details.
 [SWS_EcuM_04002] ⌈When the Alarm Clock service is present (seeEcuMAlarm-
 ClockPresent ) theEcuM_MainFunction shall update the Alarm Clock Timer⌋()
+
 
 ### Wakeup Source State Handling
 
@@ -2966,6 +3263,7 @@ Summarizing: every pending event is validated independently (if configured) and 
 EcuM publishes the result as a mode request to the BswM, which in turn can trigger
 state changes in the EcuM.
 
+
 ### Internal Representation of Wakeup States
 
 The EcuM manager module offers the following interfaces to ascertain the state of
@@ -3000,6 +3298,7 @@ importance. They are simply used to explain the semantics of the interfaces.
 
 Specification of ECU State Manager
 AUTOSAR CP R20-11
+
 
 ### Activities in the WakeupValidation Sequence
 
@@ -3087,6 +3386,7 @@ on top of the driver (e.g. the handler). The best place to put this depends on h
 and software design. See also section 7.6.4.4 Requirements for Drivers with Wakeup
 Sources .
 
+
 #### Wakeup of Communication Channels
 
 If a wakeup occurs on a communication channel, the corresponding bus transceiver
@@ -3102,6 +3402,7 @@ See also 7.6.4.2 Interaction of Wakeup Sources and the ECU Manager.
 
 Specification of ECU State Manager
 AUTOSAR CP R20-11
+
 
 #### Interaction of Wakeup Sources and the ECU Manager
 
@@ -3125,6 +3426,7 @@ wakeup validation protocol), the ECU Manager module shall make the information t
 it is a source of the current ECU wakeup through theEcuM_GetValidatedWakeu-
 pEvents (see [SWS_EcuM_02830] ) function.⌋()
 
+
 #### Wakeup Validation Timeout
 
 [SWS_EcuM_04004] ⌈The ECU Manager Module shall either provide a single wakeup
@@ -3147,6 +3449,7 @@ Specification of ECU State Manager
 AUTOSAR CP R20-11
 Wakeup timeouts are defined by configuration (seeEcuMValidationTimeout).
 
+
 #### Requirements for Drivers with Wakeup Sources
 
 The driver must invoke EcuM_SetWakeupEvent (see [SWS_EcuM_02826] )
@@ -3161,6 +3464,7 @@ enable or disable the wakeup source, and to put the related peripherals to sleep
 requirement only applies if hardware provides these capabilities.
 The driver should enable the callback invocation in its initialization function.
 
+
 ### Requirements for Wakeup Validation
 
 If the wakeup source requires validation, this may be done by any but only by one
@@ -3171,6 +3475,7 @@ Validation is done by calling the EcuM_ValidateWakeupEvent (see
 [SWS_EcuM_02601] ⌈If the EcuM cannot determine the reset reason returned by the
 Mcu driver, then the EcuM set a wakeup event for default wakeup source ECUM_
 WKSOURCE_RESET instead.⌋()
+
 
 ### Wakeup Sources and Reset Reason
 
@@ -3189,6 +3494,7 @@ AUTOSAR CP R20-11
 •ECUM_WKSOURCE_INTERNAL_WDG
 •ECUM_WKSOURCE_EXTERNAL_WDG.
 ⌋()
+
 
 ### Wakeup Sources with Integrated Power Control
 
@@ -3213,6 +3519,7 @@ upEvent (see [SWS_EcuM_02826] ) and EcuM_ClearWakeupEvents (see
 [SWS_EcuM_02828] ) functions.
 These principles can be applied to all wakeup sources with integrated power control.
 The CAN transceiver only serves as an example.
+
 
 ## Shutdown Targets
 
@@ -3251,6 +3558,7 @@ treated as reset modes, using the same mode facitlities as sleep.
 Refer to section 8.3.4 Shutdown Management for the shutdown management facility’s
 interface definitions.
 
+
 ### Sleep
 
 [SWS_EcuM_02188] ⌈No wakeup event shall be missed in the SLEEP phase. The
@@ -3266,6 +3574,7 @@ gets.⌋()
 
 Specification of ECU State Manager
 AUTOSAR CP R20-11
+
 
 ### Reset
 
@@ -3291,6 +3600,7 @@ and SW-Cs to
 •Get a set of recent shutdown causes
 ⌋()
 See also section 8.3.4 Shutdown Management.
+
 
 ## Alarm Clock
 
@@ -3327,6 +3637,7 @@ an ECU reset.⌋()
 [SWS_EcuM_04088] ⌈There shall be one and only one wakeup source assigned to
 the EcuM Clock (seeEcuMAlarmWakeupSource ).⌋()
 
+
 ### Alarm Clocks and Users
 
 SW-Cs and BSW modules can each maintain an alarm clock (user alarm clock).
@@ -3351,10 +3662,12 @@ Rationale for [SWS_EcuM_04073]: Generally EcuM Users shall not be able to set th
 EcuM clock time. The EcuM clock time can be set to an arbitrary time to allow testing
 alarms that take days to expire.
 
+
 ### EcuM Clock Time
 
 [SWS_EcuM_04089] ⌈If the underlying hardware mechanism is tick based, the ECUM
 shall "correct" the time accordingly⌋()
+
 
 #### EcuM Clock Time in the UP Phase
 
@@ -3362,6 +3675,7 @@ The EcuM_MainFunction increments the EcuM clock during the UP Phase. It uses
 standard OS mechanisms (alarms / counters) to derive its time. Note the difference
 in granularity between the counters and EcuM time, which is measured in seconds
 ([SWS_EcuM_04069] ).
+
 
 #### EcuM Clock Time in the Sleep Phase
 
@@ -3392,6 +3706,7 @@ AUTOSAR CP R20-11
 [SWS_EcuM_04010] ⌈User alarms and the master alarm shall be cancelled during
 the StartPreOS Sequence, in the WakeupRestart Sequence and the OffPreOS Se-
 quence.⌋(SRS_ModeMgm_09188)
+
 
 ## MultiCore
 
@@ -3427,6 +3742,7 @@ PostRun. With flexible ECU management, the system integrator determines the ECU�
 states’ names and semantics. Methods to ensure a de-initialization phase must be
 upheld, however. The names used here are therefore not normative.
 
+
 ### Master Core
 
 There is one explicit master core. Which core the master core is, is determined by
@@ -3436,16 +3752,19 @@ Then is starts all other cores with all other EcuMs.
 When these are started, it initializes together with each satellite EcuM the core local
 OS and BswM.
 
+
 ### Slave Core
 
 On every slave core, one satellite EcuM has to run. If a core contains more than one
 partition, only on EcuM per core has to exist.
+
 
 ### Master Core - Slave Core Signalling
 
 This section discusses the general mechanisms with which BSW can communicate
 over cores. It presupposed general knowledge of the SchM, which is described and
 specified in the RTE.
+
 
 #### BSW Level
 
@@ -3460,6 +3779,7 @@ AUTOSAR CP R20-11
 Refer to the Guide to Mode Management [23] for a more complete description of the
 solution approaches and for a discussion of the considerations in choosing between
 them.
+
 
 #### Example for Shutdown Synchronization
 
@@ -3611,6 +3931,7 @@ AUTOSAR CP R20-11
 BswM in the context of its main function task (deferred processing of mode arbitration).
 This additionally requires that the main function task is an extended task.
 
+
 ### UP Phase
 
 From the hardware perspective, it is possible that wakeup interrupts could occur on all
@@ -3623,6 +3944,7 @@ As in the single-core case, the BswM (as configured by the integrator) has the r
 sibility for controlling ECU resources, establishing that the local core can be powered
 down or halted as well as de-initializing the appropriate applications and BSW before
 handing control over to the EcuM of its core.
+
 
 ### STARTUP Phase
 
@@ -3653,6 +3975,7 @@ AUTOSAR CP R20-11
 every core.⌋()
 [SWS_EcuM_04014] ⌈The ECU Manager module shall callBswM_Init for all core
 local BswMs on the master and all slave cores.⌋()
+
 
 #### Master Core STARTUP
 
@@ -3732,6 +4055,7 @@ Figure 7.20: Master Core StartPostOS Sequence
 ⌋
 ()
 
+
 #### Slave Core STARTUP
 
 [SWS_EcuM_04145] ⌈The EcuM EcuM_AL_DriverInitZero and EcuM_AL_-
@@ -3800,6 +4124,7 @@ Figure 7.22: Slave Core StartPostOS Sequence
 ⌋
 ()
 
+
 ### SHUTDOWN Phase
 
 Individual core shutdown (i.e. while the rest of the ECU continues to run) is currently
@@ -3830,6 +4155,7 @@ and the ECU is put to bed with the global shutdown hook)
 
 Specification of ECU State Manager
 AUTOSAR CP R20-11
+
 
 #### Master Core SHUTDOWN
 
@@ -3882,6 +4208,7 @@ Figure 7.24: Master Core OffPostOS Sequence
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 
+
 #### Slave Core SHUTDOWN
 
 «module»
@@ -3915,6 +4242,7 @@ Figure 7.26: Slave Core OffPostOS Sequence
 ⌋
 ()
 
+
 ### SLEEP Phase
 
 When the shutdown target Sleep is requested, all cores are put to sleep simultaneously.
@@ -3936,6 +4264,7 @@ before releasing the slave cores from the "halt" state
 
 Specification of ECU State Manager
 AUTOSAR CP R20-11
+
 
 #### Master Core SLEEP
 
@@ -4118,6 +4447,7 @@ Figure 7.30: Master Core WakeupRestart Sequence
 ⌋
 ()
 
+
 #### Slave Core SLEEP
 
 [SWS_EcuM_04027] ⌈
@@ -4271,7 +4601,9 @@ Figure 7.34: Slave Core WakeupRestart Sequence
 ⌋
 ()
 
+
 ### Runnables and Entry points
+
 
 
 
@@ -4371,6 +4703,7 @@ alarmClock.SetClock -> SetClock
 };
 ⌋()
 
+
 ## EcuM Mode Handling
 
 The ECU State Manager provides interfaces for SW-Cs to request and release the
@@ -4449,7 +4782,9 @@ Table 7.8: EcuM Modes
 terface BswM_EcuM_CurrentState(EcuM_StateType State). A new state shall
 be set by EcuM when RTE has given its feedback via the acknowledgement port.⌋()
 
+
 ## Advanced Topics
+
 
 
 
@@ -4475,10 +4810,12 @@ which in many cases even can be flashed separately. The only way to get from one
 image to another is through reset. The boot menu will branch into the one or other
 image depending on the selected boot target.
 
+
 ### Relation to Complex Drivers
 
 If a complex driver handles a wakeup source, it must follow the protocol for handling
 wakeup events specified in this document.
+
 
 ### Handling Errors during Startup and Shutdown
 
@@ -4492,6 +4829,7 @@ tialization directly to the DEM module or the DET module, as specified in their 
 The ECU Manager module does not report the errors. The BSW module is also re-
 sponsible for taking any special measures to react to errors occurring during their ini-
 tialization.
+
 
 ## ErrorHook
 
@@ -4514,6 +4852,7 @@ EcuM_ErrorHook shall be performed.⌋()
 Note: The exact error code used when callingEcuM_ErrorHook depends on the OS
 function and their return value and is not standardized.
 
+
 ## Error classification
 
 Section "Error Handling" of the document [6] describes the error handling of the Basic
@@ -4528,6 +4867,7 @@ If a reporting of errors to Dem/Det is needed the user can perform these actions
 EcuM_ErrorHook .
 The following subchapters contains all error codes which might be reported from the
 EcuM (besides those individual error codes defined by the integrator).
+
 
 ### Development Errors
 
@@ -4568,6 +4908,7 @@ ECUM_E_MISMATCHED_RUN_RELEASE Assinged by
 Implementation
 ⌋(SRS_BSW_00327, SRS_BSW_00337, SRS_BSW_00350, SRS_BSW_00385)
 
+
 ### Runtime Errors
 
 [SWS_EcuM_91003] ⌈
@@ -4580,13 +4921,16 @@ The RAM check during wakeup failed ECUM_E_RAM_CHECK_FAILED Assigned by
 Implementation
 ⌋()
 
+
 ### Transient Faults
 
 There are no transient faults.
 
+
 ### Production Errors
 
 There are no production errors.
+
 
 ### Extended Production Errors
 
@@ -4596,7 +4940,9 @@ There are no extended production errors.
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 
+
 # API specification
+
 
 
 
@@ -4651,7 +4997,9 @@ type Std_ReturnType and represent the following values
 •ECUM_E_PAST = 4
 ⌋()
 
+
 ## Type definitions
+
 
 
 
@@ -4695,6 +5043,7 @@ rameters of the ECU Manager module as well as pointers to instances of configura
 structures for the modules mentioned above. The pointers are derived from the corre-
 sponding EcuM parameters.
 
+
 ### EcuM_RunStatusType
 
 [SWS_EcuM_04120] ⌈
@@ -4705,11 +5054,13 @@ ECUM_RUNSTATUS_UNKNOWN 0 Unknown status. Init Value.
 ECUM_RUNSTATUS_
 REQUESTED
 
+
 # Status requested from EcuM
 
 Range
 ECUM_RUNSTATUS_
 RELEASED
+
 
 # Status released from EcuM.
 
@@ -4719,6 +5070,7 @@ Available via EcuM.h
 [SWS_EcuM_04121] ⌈The ECU Manager module shall inform BswM about the state of
 the Run Request Protocol as listed in the EcuM_RunStatusType.⌋(SRS_ModeMgm_-
 09116)
+
 
 ### EcuM_WakeupSourceType
 
@@ -4771,6 +5123,7 @@ shall be done by the configuration tool.⌋()
 the EcuMWakeupSource container shall define the position corresponding to that
 wakeup source in all instances the EcuM_WakeupSourceType bitfield.⌋()
 
+
 ### EcuM_WakeupStatusType
 
 [SWS_EcuM_04041] ⌈
@@ -4795,6 +5148,7 @@ changed.
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 
+
 ### EcuM_ResetType
 
 [SWS_EcuM_04044] ⌈
@@ -4811,6 +5165,7 @@ Description This type describes the reset mechanisms supported by the ECU State 
 extended by configuration.
 Available via EcuM.h
 ⌋()
+
 
 ### EcuM_StateType
 
@@ -4831,6 +5186,7 @@ Available via EcuM.h
 [SWS_EcuM_02664] ⌈The ECU Manager module shall define all states as listed in the
 EcuM_StateType.⌋()
 
+
 ## Function Definitions
 
 This is a list of functions provided for upper layer modules.
@@ -4839,7 +5195,9 @@ This is a list of functions provided for upper layer modules.
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 
+
 ### General
+
 
 
 
@@ -4861,7 +5219,9 @@ Description Returns the version information of this module.
 Available via EcuM.h
 ⌋(SRS_BSW_00407, SRS_BSW_00411)
 
+
 ### Initialization and Shutdown Sequences
+
 
 
 
@@ -4895,6 +5255,7 @@ AUTOSAR CP R20-11
 Available via EcuM.h
 ⌋()
 
+
 #### EcuM_Init
 
 [SWS_EcuM_02811] ⌈
@@ -4913,6 +5274,7 @@ Description Initializes the ECU state manager and carries out the startup proced
 return (it calls StartOS)
 Available via EcuM.h
 ⌋(SRS_BSW_00358, SRS_BSW_00414, SRS_BSW_00101)
+
 
 #### EcuM_StartupTwo
 
@@ -4951,6 +5313,7 @@ task.
 Starting EcuM_StartupTwo as an autostart task is an implicit activation. The other
 mechanisms would be an explicit activation.
 
+
 #### EcuM_Shutdown
 
 [SWS_EcuM_02812] ⌈
@@ -4974,7 +5337,9 @@ Available via EcuM.h
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 
+
 ### State Management
+
 
 
 
@@ -5001,6 +5366,7 @@ If the State parameter is not a valid value, the EcuM_SetState function shall no
 the State and if Development Error Reporting is turned on, the EcuM_SetState function
 shall additionally send an ECUM_E_STATE_PAR_OUT_OF_RANGE error message to
 the DET module.⌋(SRS_ModeMgm_09116)
+
 
 #### EcuM_RequestRUN
 
@@ -5037,6 +5403,7 @@ the ECU. Run requests are specific to the user.⌋(SRS_ModeMgm_09116)
 requests by the same user detected byEcuM_RequestRUN the function shall report
 ECUM_E_MULTIPLE_RUN_REQUESTS to Det.⌋()
 
+
 #### EcuM_ReleaseRUN
 
 [SWS_EcuM_04127] ⌈
@@ -5066,6 +5433,7 @@ about user IDs and their generation.
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 
+
 #### EcuM_RequestPOST_RUN
 
 [SWS_EcuM_04128] ⌈
@@ -5094,6 +5462,7 @@ All requirements of 8.3.3.2 EcuM_RequestRUN apply accordingly to the function Ec
 M_RequestPOST_RUN.
 Configuration of EcuM_RequestPOST_RUN: Refer to EcuM_UserType for more infor-
 mation about user IDs and their generation.
+
 
 #### EcuM_ReleasePOST_RUN
 
@@ -5126,7 +5495,9 @@ function shall reportECUM_E_MISMATCHED_RUN_RELEASE to Det.⌋()
 Configuration of EcuM_ReleasePOST_RUN: Refer to EcuM_UserType for more infor-
 mation about user IDs and their generation.
 
+
 ### Shutdown Management
+
 
 
 
@@ -5174,6 +5545,7 @@ Implementation hint: The ECU Manager module does not define any mechanism to
 resolve conflicts arising from requests from different sources. The shutdown target is
 always the last value set.
 
+
 #### EcuM_GetShutdownTarget
 
 [SWS_EcuM_02824] ⌈
@@ -5214,6 +5586,7 @@ Available via EcuM.h
 GetShutdownTarget shall simply ignore the shutdownMode parameter. If Development
 Error Detection is activated,EcuM_GetShutdownTarget shall send the ECUM_E_
 PARAM_POINTER development error to the DET module.⌋()
+
 
 #### EcuM_GetLastShutdownTarget
 
@@ -5271,6 +5644,7 @@ The EcuM_GetLastShutdownTarget function is intended primarily for use in the
 ECU STARTUP or RUN states. To simplify implementation, it is acceptable if the value
 is set in late shutdown phase for use during the next startup.
 
+
 #### EcuM_SelectShutdownCause
 
 [SWS_EcuM_04050] ⌈
@@ -5290,6 +5664,7 @@ Description EcuM_SelectShutdownCause elects the cause for a shutdown. EcuM_Selec
 is part of the ECU Manager Module port interface.
 Available via EcuM.h
 ⌋()
+
 
 #### EcuM_GetShutdownCause
 
@@ -5317,7 +5692,9 @@ interface.
 Available via EcuM.h
 ⌋()
 
+
 ### Wakeup Handling
+
 
 
 
@@ -5351,6 +5728,7 @@ AUTOSAR CP R20-11
 terrupt context, from OS context and an OS-free context.⌋()
 [SWS_EcuM_03003] ⌈Caveat of EcuM_GetPendingWakeupEvents: This function
 only returns the wakeup events with status ECUM_WKSTATUS_PENDING.⌋()
+
 
 #### EcuM_ClearWakeupEvent
 
@@ -5389,6 +5767,7 @@ Shutdown() and NvM_WriteAll().
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 
+
 #### EcuM_GetValidatedWakeupEvents
 
 [SWS_EcuM_02830] ⌈
@@ -5414,6 +5793,7 @@ bits set in aEcuM_WakeupSourceType bitmask.⌋()
 See also section 7.6.3 Internal Representation of Wakeup States.
 [SWS_EcuM_02532] ⌈EcuM_GetValidatedWakeupEvent shall be callable from in-
 terrupt context, from OS context and an OS-free context.⌋()
+
 
 #### EcuM_GetExpiredWakeupEvents
 
@@ -5449,7 +5829,9 @@ See also section 7.6.3 Internal Representation of Wakeup States.
 [SWS_EcuM_02589] ⌈EcuM_GetExpiredWakeupEvents shall be callable from in-
 terrupt context, from OS context and an OS-free context.⌋()
 
+
 ### Alarm Clock
+
 
 
 
@@ -5486,6 +5868,7 @@ AUTOSAR CP R20-11
 time, EcuM_SetRelWakeupAlarm shall not update the wakeup time and shall return
 ECUM_E_EARLIER_ACTIVE.⌋(SRS_ModeMgm_09186)
 
+
 #### EcuM_SetAbsWakeupAlarm
 
 [SWS_EcuM_04057] ⌈
@@ -5520,6 +5903,7 @@ ECUM_E_EARLIER_ACTIVE.⌋(SRS_ModeMgm_09186)
 upAlarm shall not update the wakeup time and shall return ECUM_E_PAST.⌋(SRS_-
 ModeMgm_09186)
 
+
 #### EcuM_AbortWakeupAlarm
 
 [SWS_EcuM_04061] ⌈
@@ -5545,6 +5929,7 @@ WakeupAlarm is part of the ECU Manager Module port interface.
 Available via EcuM.h
 ⌋()
 
+
 #### EcuM_GetCurrentTime
 
 [SWS_EcuM_04062] ⌈
@@ -5564,6 +5949,7 @@ Description EcuM_GetCurrentTime returns the current value of the EcuM clock (i.e
 connect). EcuM_GetCurrentTime is part of the ECU Manager Module port interface.
 Available via EcuM.h
 ⌋()
+
 
 #### EcuM_GetWakeupTime
 
@@ -5590,6 +5976,7 @@ absolute time of all user alarm clocks). EcuM_GetWakeupTime is part of the ECU M
 Module port interface.
 Available via EcuM.h
 ⌋()
+
 
 #### EcuM_SetClock
 
@@ -5618,7 +6005,9 @@ Available via EcuM.h
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 
+
 ### Miscellaneous
+
 
 
 
@@ -5650,6 +6039,7 @@ then can be evaluated by the boot manager after a reset.
 vice may depend on the boot loader used. This service is only intended for use by
 SW-C’s related to diagnostics (boot management).⌋()
 
+
 #### EcuM_GetBootTarget
 
 [SWS_EcuM_02836] ⌈
@@ -5675,11 +6065,14 @@ BootTarget is part of the ECU Manager Module port interface.
 Available via EcuM.h
 ⌋(SRS_BSW_00172)
 
+
 ## Callback Definitions
 
 
 
+
 ### Callbacks from Wakeup Sources
+
 
 
 
@@ -5689,6 +6082,7 @@ See EcuM_StartCheckWakeup ([SWS_EcuM_02929]) for a description of the
 EcuM_CheckWakeup function.
 This serviceEcuM_CheckWakeup is a Callout of the ECU Manager module as well as
 a Callback that wakeup sources invoke when they process wakeup interrupts.
+
 
 #### EcuM_SetWakeupEvent
 
@@ -5727,6 +6121,7 @@ KNOWN_WAKEUP_SOURCE error message to the DET module instead.⌋()
 text, from OS context and an OS-free context.⌋(SRS_BSW_00333)
 [SWS_EcuM_04138] ⌈EcuM_SetWakeupEvent shall ignore all events passed in the
 sources parameter that are not associated to the selected sleep mode.⌋()
+
 
 #### EcuM_ValidateWakeupEvent
 
@@ -5780,6 +6175,7 @@ PNCWakeUpIndication for each wakeup event and for every referenced PNC if at lea
 one EcuMComMPNCRef parameter (see ECUC_EcuM_00228) in the EcuMWakeup
 Source configuration container for the corresponding wakeup source is configured.⌋()
 
+
 ## Callout Definitions
 
 Callouts are code fragments that must be added to the ECU Manager module during
@@ -5788,7 +6184,9 @@ module configuration tool generates a default implementation for some callouts w
 is edited manually by the integrator. Conceptually, these callouts belong to the ECU
 integration code.
 
+
 ### Generic Callouts
+
 
 
 
@@ -5822,7 +6220,9 @@ individual error codes to be passed as the reason parameter. These codes shall n
 conflict with the development and production error codes as defined in Table 7.1 and
 Table 7.13.1 nor with the standard error codes, i.e. E_OK, E_NOT_OK, etc.
 
+
 ### Callouts from the STARTUP Phase
+
 
 
 
@@ -5852,6 +6252,7 @@ programmable interrupts.
 Available via EcuM_Externals.h
 ⌋()
 
+
 #### EcuM_AL_DriverInitZero
 
 [SWS_EcuM_02905] ⌈
@@ -5876,6 +6277,7 @@ The ECU Manager module configuration tool must generate a default implementation
 of theEcuM_AL_DriverInitZero callout ([SWS_EcuM_02905]) from the sequence
 of modules defined in the EcuMDriverInitListZero configuration container (see ECUC_
 EcuM_00114). See also [SWS_EcuM_02559] and [SWS_EcuM_02730].
+
 
 #### EcuM_DeterminePbConfiguration
 
@@ -5905,6 +6307,7 @@ Available via EcuM_Externals.h
 ⌋()
 The ECU Manager module invokesEcuM_DeterminePbConfiguration early in the
 PreOS Sequence (see section 7.3.2 Activities in StartPreOS Sequence)
+
 
 #### EcuM_AL_DriverInitOne
 
@@ -5937,6 +6340,7 @@ EcuMDriverInitListOne configuration container (see ECUC_EcuM_00111). See also
 Besides driver initialization, the following initialization sequences should be considered
 in this block: MCU initialization according to AUTOSAR_SWS_Mcu_Driver chapter 9.1.
 
+
 #### EcuM_LoopDetection
 
 [SWS_EcuM_04137] ⌈
@@ -5956,7 +6360,9 @@ Detection is called on every startup.
 Available via EcuM_Externals.h
 ⌋()
 
+
 ### Callouts from the SHUTDOWN Phase
+
 
 
 
@@ -5986,6 +6392,7 @@ Available via EcuM_Externals.h
 The ECU Manager module invokes EcuM_OnGoOffOne on entry to the OffPreOS Se-
 quence (see section 7.4.1 Activities in the OffPreOS Sequence).
 
+
 #### EcuM_OnGoOffTwo
 
 [SWS_EcuM_02917] ⌈
@@ -6005,6 +6412,7 @@ Available via EcuM_Externals.h
 ⌋()
 The ECU Manager module invokes EcuM_OnGoOffTwo on entry to the OffPostOS
 Sequence (see section 7.4.2 Activities in the OffPostOS Sequence).
+
 
 #### EcuM_AL_SwitchOff
 
@@ -6038,6 +6446,7 @@ fixes this deadlock, the integrator code in EcuM_AL_SwitchOff as last action can
 the endless loop and after a sufficient long time reset the ECU using Mcu_Perform
 Reset().
 
+
 #### EcuM_AL_Reset
 
 [SWS_EcuM_04065] ⌈
@@ -6062,7 +6471,9 @@ Description This callout shall take the code for resetting the ECU.
 Available via EcuM_Externals.h
 ⌋()
 
+
 ### Callouts from the SLEEP Phase
+
 
 
 
@@ -6091,6 +6502,7 @@ quence (see section 7.5.1 Activities in the GoSleep Sequence)
 be enabled (and used as the wakeupSource parameter) from the EcuMWakeupSource
 (see ECUC_EcuM_00152) bitfield configured for the current sleep mode.⌋()
 
+
 #### EcuM_GenerateRamHash
 
 [SWS_EcuM_02919] ⌈
@@ -6115,6 +6527,7 @@ Available via EcuM_Externals.h
 The ECU Manager module invokes EcuM_GenerateRamHash: in the Halt Sequence
 just before putting the ECU physically to sleep (see section 7.5.2 Activities in the Halt
 Sequence).
+
 
 #### EcuM_SleepActivity
 
@@ -6147,6 +6560,7 @@ loop at maximum frequency. The callout implementation must ensure by other means
 if callout code shall be executed with a lower period. The integrator may choose any
 method to control this, e.g. with the help of OS counters, OS alarms, or Gpt timers.
 
+
 #### EcuM_StartCheckWakeup
 
 [SWS_EcuM_04096] ⌈
@@ -6167,6 +6581,7 @@ WakeupSource. If EcuMCheckWakeupTimeout > 0 the CheckWakeupTimer for the Wakeup
 Source is started. If EcuMCheckWakeupTimeout <= 0 the API call is ignored by the EcuM.
 Available via EcuM_Externals.h
 ⌋()
+
 
 #### EcuM_CheckWakeup
 
@@ -6195,6 +6610,7 @@ Available via EcuM_Externals.h
 ⌋()
 [SWS_EcuM_04098] ⌈If EcuM_SetWakeupEvent is called for the corresponding
 wakeup source the CheckWakeupTimer is cancelled.⌋()
+
 
 #### EcuM_EndCheckWakeup
 
@@ -6234,6 +6650,7 @@ checked.⌋()
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 
+
 #### EcuM_CheckRamHash
 
 [SWS_EcuM_02921] ⌈
@@ -6272,6 +6689,7 @@ when he judges that the DEM will not write damaged NVRAM blocks.⌋(SRS_BSW_-
 00339)
 See also section 7.5.2 Activities in the Halt Sequence.
 
+
 #### EcuM_DisableWakeupSources
 
 [SWS_EcuM_02922] ⌈
@@ -6300,6 +6718,7 @@ Restart Sequence (see section 7.5.5 Activities in the WakeupRestart Sequence)
 to be disabled (and used as the wakeupSource parameter) from the internal pend-
 ing events variable (NOT operation). The integration code used for this callout must
 determine which wakeup sources must be disabled.⌋()
+
 
 #### EcuM_AL_DriverRestart
 
@@ -6330,7 +6749,9 @@ of the EcuM_AL_DriverRestart callout from the sequence of modules defined in the
 EcuMDriverRestartList configuration container (see ECUC_EcuM_00115). See also
 [SWS_EcuM_02561], [SWS_EcuM_02559] and [SWS_EcuM_02730].
 
+
 ### Callouts from the UP Phase
+
 
 
 
@@ -6354,6 +6775,7 @@ Available via EcuM_Externals.h
 ⌋()
 The EcuM Manager module invokes EcuM_StartWakeupSources in the WakeupVali-
 dation Sequence (see section 7.6.4 Activities in the WakeupValidation Sequence).
+
 
 #### EcuM_CheckValidation
 
@@ -6382,6 +6804,7 @@ Available via EcuM_Externals.h
 The EcuM Manager module invokes EcuM_CheckValidation in the WakeupValidation
 Sequence (see section 7.6.4 Activities in the WakeupValidation Sequence).
 
+
 #### EcuM_StopWakeupSources
 
 [SWS_EcuM_02926] ⌈
@@ -6402,6 +6825,7 @@ Available via EcuM_Externals.h
 The EcuM Manager module invokes EcuM_StopWakeupSources in the WakeupVali-
 dation Sequence (see section 7.6.4 Activities in the WakeupValidation Sequence).
 
+
 ## Scheduled Functions
 
 These functions are directly called by Basic Software Scheduler. The following func-
@@ -6410,6 +6834,7 @@ tions shall have no return value and no parameter. All functions shall be non re
 
 Specification of ECU State Manager
 AUTOSAR CP R20-11
+
 
 ### EcuM_MainFunction
 
@@ -6429,6 +6854,7 @@ The shortest validation timeout typically should limit the period.
 •As a rule of thumb, the period of this function should be approximately half as
 long as the shortest validation timeout.
 EcuM_MainFunction should not be called from tasks that may invoke runnable entities.
+
 
 ## Expected Interfaces
 
@@ -6479,6 +6905,7 @@ called.
 ShutdownOS Os.h –
 StartOS Os.h –
 ⌋()
+
 
 ### Optional Interfaces
 
@@ -6531,7 +6958,9 @@ WdgM_PerformReset WdgM.h Instructs the Watchdog Manager to cause a
 watchdog reset.
 ⌋()
 
+
 ### Configurable interfaces
+
 
 
 
@@ -6568,12 +6997,15 @@ ured EcuMDriverInitListBswM. The name of the generated functions shall be EcuM_
 AL_DriverInitBswM_<x>, where <x> represents the short name of the EcuMDriverInit
 ListBswM container.⌋()
 
+
 ## Specification of the Port Interfaces
 
 This chapter specifies the port interfaces and ports needed to access the ECU Man-
 ager module over the VFB.
 
+
 ### Ports and Port Interface for EcuM_ShutdownTarget Interface
+
 
 
 
@@ -6584,6 +7016,7 @@ down target which will be respected during the next shutdown phase. Note that th
 ECU Manager module does not offer a port interface to allow a SW-C to initiate shut-
 down, however.
 
+
 #### Service Interfaces
 
 [SWS_EcuM_03011] ⌈
@@ -6592,7 +7025,9 @@ Comment A SW-C can select a shutdown target using this interface
 IsService true
 Variation –
 
+
 # E_OK Operation successfulPossible Errors
+
 
 
 
@@ -6697,7 +7132,9 @@ otherwise it shall be ignored.⌋()
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 
+
 ### Port Interface for EcuM_BootTarget Interface
+
 
 
 
@@ -6705,6 +7142,7 @@ AUTOSAR CP R20-11
 
 A SW-C that wants to select a boot target must require the client-server interface Ecu
 M_BootTarget.
+
 
 #### Service Interfaces
 
@@ -6715,7 +7153,9 @@ Target.
 IsService true
 Variation –
 
+
 # E_OK Operation successfulPossible Errors
+
 
 
 
@@ -6748,7 +7188,9 @@ E_NOT_OK
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 
+
 ### Port Interface for EcuM_AlarmClock Interface
+
 
 
 
@@ -6759,6 +7201,7 @@ M_AlarmClock. The EcuM_AlarmClock interface uses port-defined argument values
 to identify the user that manages its alarm clock. See [SWS_Rte_1350] in the Specifi-
 cation of RTE [2] for a description of port-defined argument values.
 
+
 #### Service Interfaces
 
 [SWS_EcuM_04105] ⌈
@@ -6768,11 +7211,14 @@ Clock.
 IsService true
 Variation {ecuc(EcuM/EcuMFlexGeneral/EcuMAlarmClockPresent)} == True
 
+
 # E_OK Operation successful
 
 
 
+
 # E_NOT_OK Operation failed
+
 
 
 
@@ -6781,9 +7227,11 @@ Variation {ecuc(EcuM/EcuMFlexGeneral/EcuMAlarmClockPresent)} == True
 ACTIVE
 An earlier alarm is already set
 
+
 # ECUM_E_PAST The desired point in time has already passed
 
 Possible Errors
+
 
 # ECUM_E_NOT_ACTIVE No active alarm found
 
@@ -6836,7 +7284,9 @@ E_NOT_OK
 ECUM_E_EARLIER_ACTIVE
 ⌋()
 
+
 ### Port Interface for EcuM_Time Interface
+
 
 
 
@@ -6845,9 +7295,11 @@ ECUM_E_EARLIER_ACTIVE
 A SW-C that wants to use the time functionality of the EucM must require the client-
 server interface EcuM_Time.
 
+
 #### Data Types
 
 The EcuM_Time service does not have any specific data types.
+
 
 #### Service Interfaces
 
@@ -6861,7 +7313,9 @@ Comment –
 IsService true
 Variation –
 
+
 # E_OK Operation successfulPossible Errors
+
 
 
 
@@ -6893,6 +7347,7 @@ Possible Errors E_OK
 E_NOT_OK
 ⌋()
 
+
 ### Port Interface for EcuM_StateRequest Interface
 
 [SWS_EcuM_04130] ⌈The ECU State Manager module shall provide System Services
@@ -6908,6 +7363,7 @@ available:
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 
+
 #### General Approach
 
 A SW-C which needs to keep the ECU alive or needs to execute any operations before
@@ -6915,9 +7371,11 @@ the ECU is shut down shall require the client-server interface EcuM_StateRequest
 This interface uses port-defined argument values to identify the user that requests
 modes. See [SWS_Rte_1350] for a description of port-defined argument values.
 
+
 #### Data Types
 
 No data types are needed for this interface.
+
 
 #### Service Interfaces
 
@@ -6927,7 +7385,9 @@ Comment Interface to request a specific ECU state
 IsService true
 Variation –
 
+
 # E_OK Operation successfulPossible Errors
+
 
 
 
@@ -6959,7 +7419,9 @@ Possible Errors E_OK
 E_NOT_OK
 ⌋()
 
+
 ### Port Interface for EcuM_CurrentMode Interface
+
 
 
 
@@ -6991,6 +7453,7 @@ interface EcuM_CurrentMode.⌋()
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 
+
 #### Data Types
 
 The mode declaration group EcuM_Mode represents the modes of the ECU State
@@ -7014,6 +7477,7 @@ STARTUP –
 Description –
 ⌋()
 
+
 #### Service Interfaces
 
 [SWS_EcuM_04108] ⌈
@@ -7023,6 +7487,7 @@ IsService true
 Variation –
 ModeGroup currentMode EcuM_Mode
 ⌋()
+
 
 ### Definition of the ECU Manager Service
 
@@ -7124,12 +7589,14 @@ application
 ECUM_BOOT_TARGET_OEM_
 BOOTLOADER
 
+
 # The ECU will boot into the OEM
 
 bootloader
 Range
 ECUM_BOOT_TARGET_SYS_
 BOOTLOADER
+
 
 # The ECU will boot into the system
 
@@ -7228,6 +7695,7 @@ independent actions. If BSW modules want to use the EcuM but are inside partitio
 that contain no own EcuM instance. These modules can use the SchM functions to
 cross partition boundaries.
 
+
 ## API Parameter Checking
 
 [SWS_EcuM_03009] ⌈If Development Error Detection is enabled for this module, then
@@ -7244,7 +7712,9 @@ Specific development errors are listed in the functions, where they apply.⌋(SR
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 
+
 # Sequence Charts
+
 
 
 
@@ -7266,11 +7736,13 @@ charts presented in this specification.
 •Figure 7.14 - WakeupRestart Sequence
 •Figure 7.16 - The WakeupValidation Sequence
 
+
 ## Wakeup Sequences
 
 The Wake-up Sequences show how a number of modules cooperate to put the ECU
 into a sleep state to be able to wake up and startup the ECU when a wake up event
 has occurred.
+
 
 ### GPT Wakeup Sequences
 
@@ -7482,6 +7954,7 @@ Figure 9.2: GPT wake up by polling
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 
+
 ### ICU Wakeup Sequences
 
 The Input Capture Unit (ICU) is another wake up source. In contrast to GPT, the ICU
@@ -7602,6 +8075,7 @@ Figure 9.3: ICU wake up by interrupt
 
 Specification of ECU State Manager
 AUTOSAR CP R20-11
+
 
 ### CAN Wakeup Sequences
 
@@ -8137,6 +8611,7 @@ Figure 9.7: CAN wake up validation
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 
+
 ### LIN Wakeup Sequences
 
 Figure 9.8 shows the LIN transceiver wakeup via interrupt. The interrupt is usually
@@ -8572,6 +9047,7 @@ Note that LIN does not require wakeup validation.
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 
+
 ### FlexRay Wakeup Sequences
 
 For FlexRay a wake up is only possible via the FlexRay transceivers. There are two
@@ -8803,6 +9279,7 @@ Figure 9.12: FlexRay transceiver wake up by polling
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 
+
 # Configuration specification
 
 In general, this chapter defines configuration parameters and their clustering into con-
@@ -8810,6 +9287,7 @@ tainers.
 Chapters 10.1 and 10.2 specify the structure (containers) and the parameters of the
 module ECU Manager.
 Chapter 10.3 specifies published information of the module ECU State Manager.
+
 
 ## Common Containers and configuration parameters
 
@@ -8822,6 +9300,7 @@ only if the implementation of the initialized BSW module supports this.
 
 Specification of ECU State Manager
 AUTOSAR CP R20-11
+
 
 ### EcuM
 
@@ -8884,6 +9363,7 @@ configuration parameters.
 
 Specification of ECU State Manager
 AUTOSAR CP R20-11
+
 
 ### EcuMGeneral
 
@@ -8968,6 +9448,7 @@ No Included Containers
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 
+
 ### EcuMConfiguration
 
 EcuMConfiguration: 
@@ -9049,6 +9530,7 @@ Container Name Multiplicity Scope / Dependency
 EcuMCommon
 Configuration
 
+
 # This container contains the common configuration
 
 (parameters) of the ECU State Manager.
@@ -9059,6 +9541,7 @@ AUTOSAR CP R20-11
 EcuMFlexConfiguration 0..1 This container contains the configuration (parameters)
 of the EcuMFlex.
 Only applicable if EcuMFlex is implemented.
+
 
 ### EcuMCommonConfiguration
 
@@ -9084,6 +9567,7 @@ this parameter can be omitted.
 Multiplicity 0..1
 Type EcucIntegerParamDef
 Range 0 ..
+
 
 # Default Value
 
@@ -9151,6 +9635,7 @@ Container Name Multiplicity Scope / Dependency
 EcuMDefaultShutdown
 Target
 
+
 # This container describes the default shutdown target to
 
 be selected by EcuM. The actual shutdown target may
@@ -9180,6 +9665,7 @@ The names of these containers specify the symbolic
 names of the different sleep modes.
 EcuMWakeupSource 1..32 These containers describe the configured wakeup
 sources.
+
 
 ### EcuMDefaultShutdownTarget
 
@@ -9319,6 +9805,7 @@ Post-build time X VARIANT -POST -BUILD
 Scope / Dependency scope: local
 No Included Containers
 
+
 ### EcuMDriverInitListOne
 
 EcuMDriverInitListOne: 
@@ -9368,6 +9855,7 @@ Included Containers
 Container Name Multiplicity Scope / Dependency
 EcuMDriverInitItem 1..* These containers describe the entries in a driver init list.
 
+
 ### EcuMDriverInitListZero
 
 SWS Item [ECUC_EcuM_00114]
@@ -9392,6 +9880,7 @@ Included Containers
 Container Name Multiplicity Scope / Dependency
 EcuMDriverInitItem 1..* These containers describe the entries in a driver init list.
 
+
 ### EcuMDriverRestartList
 
 SWS Item [ECUC_EcuM_00115]
@@ -9414,6 +9903,7 @@ Configuration Parameters
 Included Containers
 Container Name Multiplicity Scope / Dependency
 EcuMDriverInitItem 1..* These containers describe the entries in a driver init list.
+
 
 ### EcuMDriverInitItem
 
@@ -9591,6 +10081,7 @@ No Included Containers
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 
+
 ### EcuMSleepMode
 
 EcuMSleepMode: 
@@ -9723,6 +10214,7 @@ Scope / Dependency scope: local
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 No Included Containers
+
 
 ### EcuMWakeupSource
 
@@ -9975,6 +10467,7 @@ No Included Containers
 Specification of ECU State Manager
 AUTOSAR CP R20-11
 
+
 ## EcuM-Flex Containers and configuration parameters
 
 EcuM: EcucModuleDef
@@ -10004,6 +10497,7 @@ upperMultiplicity = 1
 +container
 +container
 Figure 10.9: EcuMFlex configuration overview
+
 
 ### EcuMFlexGeneral
 
@@ -10184,6 +10678,7 @@ No Included Containers
 
 Specification of ECU State Manager
 AUTOSAR CP R20-11
+
 
 ### EcuMFlexConfiguration
 
@@ -10381,6 +10876,7 @@ machine entered a state for shutdown,
 (split into UDS services?),
 • and values from configuration.
 
+
 ### EcuMAlarmClock
 
 SWS Item [ECUC_EcuM_00184]
@@ -10453,6 +10949,7 @@ No Included Containers
 
 Specification of ECU State Manager
 AUTOSAR CP R20-11
+
 
 ### EcuMDriverInitListBswM
 
@@ -10601,6 +11098,7 @@ Included Containers
 Container Name Multiplicity Scope / Dependency
 EcuMDriverInitItem 1..* These containers describe the entries in a driver init list.
 
+
 ### EcuMGoDownAllowedUsers
 
 SWS Item [ECUC_EcuM_00206]
@@ -10642,6 +11140,7 @@ Link time –
 Post-build time –
 Scope / Dependency scope: local
 No Included Containers
+
 
 ### EcuMResetMode
 
@@ -10685,6 +11184,7 @@ Link time –
 Post-build time –
 Scope / Dependency scope: local
 No Included Containers
+
 
 ### EcuMSetClockAllowedUsers
 
@@ -10773,6 +11273,7 @@ Post-build time –
 Scope / Dependency scope: local
 No Included Containers
 
+
 ## Published Information
 
 Currently there exists no published information except the ones specified in SWS BSW
@@ -10793,3 +11294,4 @@ BSW_00348, SRS_BSW_00353, SRS_BSW_00361, SRS_BSW_00439, SRS_-
 BSW_00449, SRS_BSW_00308, SRS_BSW_00309, SRS_BSW_00330, SRS_-
 BSW_00010, SRS_BSW_00341, SRS_BSW_00334)
 210 of 210 Document ID 78: AUTOSAR_SWS_ECUStateManager
+
